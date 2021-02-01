@@ -33,12 +33,12 @@ export const getValidRoomName = (displayName, rid = '', options = {}) => {
 		}
 	}
 
-	if (!nameValidation.test(slugifiedName)) {
-		throw new Meteor.Error('error-invalid-room-name', `${ slugifiedName } is not a valid room name.`, {
-			function: 'RocketChat.getValidRoomName',
-			channel_name: slugifiedName,
-		});
-	}
+	// if (!nameValidation.test(slugifiedName)) {
+	// 	throw new Meteor.Error('error-invalid-room-name', `${ slugifiedName } is not a valid room name.`, {
+	// 		function: 'RocketChat.getValidRoomName',
+	// 		channel_name: slugifiedName,
+	// 	});
+	// }
 
 	if (options.allowDuplicates !== true) {
 		const room = Rooms.findOneByName(slugifiedName);

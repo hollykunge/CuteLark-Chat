@@ -1,12 +1,12 @@
 import {
 	Box,
-	CheckBox,
+	// CheckBox,
 	Field,
 	Icon,
 	Margins,
 	RadioButton,
 } from '@rocket.chat/fuselage';
-import { useAutoFocus, useMergedRefs, useUniqueId } from '@rocket.chat/fuselage-hooks';
+import { useMergedRefs, useUniqueId } from '@rocket.chat/fuselage-hooks'; // useAutoFocus,
 import React, { useRef, useState } from 'react';
 
 import { useMethod } from '../../../contexts/ServerContext';
@@ -16,7 +16,7 @@ import { useTranslation } from '../../../contexts/TranslationContext';
 import { Pager } from '../Pager';
 import { useSetupWizardContext } from '../SetupWizardState';
 import { Step } from '../Step';
-import { StepHeader } from '../StepHeader';
+// import { StepHeader } from '../StepHeader';
 
 const Option = React.forwardRef(({ children, label, selected, disabled, ...props }, ref) => {
 	const innerRef = useRef();
@@ -80,10 +80,10 @@ const Item = ({ children, icon, ...props }) =>
 		{children}
 	</Box>;
 
-function RegisterServerStep({ step, title, active }) {
+function RegisterServerStep({ active }) { // {step, title,active}
 	const { canDeclineServerRegistration, goToPreviousStep, goToFinalStep } = useSetupWizardContext();
 
-	const [registerServer, setRegisterServer] = useState(true);
+	const [registerServer, setRegisterServer] = useState(false);
 	const [optInMarketingEmails, setOptInMarketingEmails] = useState(true);
 	const [agreeTermsAndPrivacy, setAgreeTermsAndPrivacy] = useState(false);
 
@@ -146,19 +146,22 @@ function RegisterServerStep({ step, title, active }) {
 		}
 	};
 
-	const autoFocusRef = useAutoFocus(active);
+	// const autoFocusRef = useAutoFocus(active);
 
-	const agreeTermsAndPrivacyId = useUniqueId();
-	const optInMarketingEmailsId = useUniqueId();
+	// const agreeTermsAndPrivacyId = useUniqueId();
+	// const optInMarketingEmailsId = useUniqueId();
 
 	return <Step active={active} working={commiting} onSubmit={handleSubmit}>
+		{/*
 		<StepHeader number={step} title={title} />
+		*/}
 
 		<Margins blockEnd='x32'>
 			<Box>
 				<Box is='p' fontScale='s1' color='hint' marginBlockEnd='x16'>{t('Register_Server_Info')}</Box>
 
 				<Box display='flex' flexDirection='column'>
+					{/*
 					<Option
 						ref={autoFocusRef}
 						data-qa='register-server'
@@ -193,6 +196,7 @@ function RegisterServerStep({ step, title, active }) {
 							</Field.Row>
 						</Field>
 					</Option>
+					*/}
 					<Option
 						data-qa='register-server-standalone'
 						label={t('Register_Server_Standalone')}
@@ -213,6 +217,7 @@ function RegisterServerStep({ step, title, active }) {
 						</Items>
 					</Option>
 
+					{/*
 					<Margins all='x16'>
 						<Field>
 							<Field.Row>
@@ -226,12 +231,14 @@ function RegisterServerStep({ step, title, active }) {
 										setAgreeTermsAndPrivacy(checked);
 									}}
 								/>
+
 								<Field.Label htmlFor={agreeTermsAndPrivacyId}>
 									{t('Register_Server_Registered_I_Agree')} <a href='https://rocket.chat/terms'>{t('Terms')}</a> & <a href='https://rocket.chat/privacy'>{t('Privacy_Policy')}</a>
 								</Field.Label>
 							</Field.Row>
 						</Field>
 					</Margins>
+						*/}
 				</Box>
 			</Box>
 		</Margins>

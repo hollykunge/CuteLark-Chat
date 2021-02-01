@@ -18,8 +18,9 @@ settings.addGroup('Accounts', function() {
 			type: 'boolean',
 			public: true,
 		});
-		this.add('Accounts_TwoFactorAuthentication_By_Email_Auto_Opt_In', true, {
+		this.add('Accounts_TwoFactorAuthentication_By_Email_Auto_Opt_In', false, {
 			type: 'boolean',
+			isDisabled: true,
 			enableQuery: {
 				_id: 'Accounts_TwoFactorAuthentication_By_Email_Enabled',
 				value: true,

@@ -143,6 +143,7 @@ function SettingsBasedStep({ step, title, active }) {
 								name={_id}
 								ref={i === 0 ? autoFocusRef : undefined}
 								value={String(value)}
+								disabled
 								onChange={(value) => setFieldValue(_id, value === 'true')}
 								options={[
 									['true', t('Yes')],

@@ -43,8 +43,8 @@ const validateChannelName = (name) => {
 		return true;
 	}
 
-	const reg = new RegExp(`^${ settings.get('UTF8_Names_Validation') }$`);
-	return name.length === 0 || reg.test(name);
+	// const reg = new RegExp(`^${ settings.get('UTF8_Names_Validation') }$`);
+	return name.length === 0 || !!name; // reg.test(name);
 };
 
 const filterNames = (old) => {
@@ -52,8 +52,9 @@ const filterNames = (old) => {
 		return old;
 	}
 
-	const reg = new RegExp(`^${ settings.get('UTF8_Names_Validation') }$`);
-	return [...old.replace(' ', '').toLocaleLowerCase()].filter((f) => reg.test(f)).join('');
+	return old.replace(' ', '');
+	// const reg = new RegExp(`^${ settings.get('UTF8_Names_Validation') }$`);
+	// return [...old.replace(' ', '').toLocaleLowerCase()].filter((f) => reg.test(f)).join('');
 };
 
 Template.createChannel.helpers({
