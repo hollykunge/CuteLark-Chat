@@ -1177,6 +1177,7 @@
   "Domains_allowed_to_embed_the_livechat_widget": "允许嵌入即时聊天小部件的逗号分隔的域列表。留空以允许所有域。",
   "Dont_ask_me_again": "不要再问我了！",
   "Dont_ask_me_again_list": "不要再问我列表",
+  "Download_Info": "下载信息",
   "Download_My_Data": "下载我的数据",
   "Download_Snippet": "下载",
   "Downloading_file_from_external_URL": "从外部 URL 下载文件",
