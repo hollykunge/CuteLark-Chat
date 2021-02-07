@@ -87,6 +87,6 @@ export function ColorSettingInput({
 				</Margins>
 			</Field.Row>
 		</Margins>
-		<Field.Hint>Variable name: {_id.replace(/theme-color-/, '@')}</Field.Hint>
+		<Field.Hint>变量名: {_id.replace(/theme-color-/, '@')}</Field.Hint>
 	</>;
 }
