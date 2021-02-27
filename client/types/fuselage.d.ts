@@ -149,9 +149,9 @@ declare namespace testlark {
 		maxSize?: CSSProperties['blockSize'];
 		fontScale?: FontScale;
 	}>
-		& Omit<AllHTMLAttributes<HTMLOrSVGElement>, 'className'>
-		& Omit<SVGAttributes<SVGElement>, keyof AllHTMLAttributes<HTMLOrSVGElement>>
-		& RefAttributes<unknown>;
+	& Omit<AllHTMLAttributes<HTMLOrSVGElement>, 'className'>
+	& Omit<SVGAttributes<SVGElement>, keyof AllHTMLAttributes<HTMLOrSVGElement>>
+	& RefAttributes<unknown>;
 
 	export const Box: ForwardRefExoticComponent<BoxProps>;
 
