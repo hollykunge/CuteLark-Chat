@@ -1,4 +1,4 @@
-declare module testlark {
+declare namespace testlark {
 	import { css } from '@rocket.chat/css-in-js';
 	import { Placements } from '@rocket.chat/fuselage-hooks';
 	import {
