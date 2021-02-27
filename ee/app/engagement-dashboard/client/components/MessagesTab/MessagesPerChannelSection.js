@@ -1,5 +1,5 @@
 import { ResponsivePie } from '@nivo/pie';
-import { Box, Flex, Icon, Margins, Select, Skeleton, Table, Tile, ActionButton } from '@rocket.chat/fuselage';
+import { Box, Flex, Icon, Margins, Select, Skeleton, Table, Tile, ActionButton } from 'testlark';
 import moment from 'moment';
 import React, { useMemo, useState } from 'react';
 

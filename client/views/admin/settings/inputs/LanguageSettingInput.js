@@ -1,4 +1,4 @@
-import { Box, Field, Flex, Select } from '@rocket.chat/fuselage';
+import { Box, Field, Flex, Select } from 'testlark';
 import React from 'react';
 
 import { useLanguages } from '../../../../contexts/TranslationContext';

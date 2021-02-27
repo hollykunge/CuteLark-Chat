@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sidebar, ActionButton } from '@rocket.chat/fuselage';
+import { Sidebar, ActionButton } from 'testlark';
 import { useMutableCallback, usePrefersReducedMotion } from '@rocket.chat/fuselage-hooks';
 
 const Medium = React.memo(({

@@ -1,4 +1,4 @@
 import React from 'react';
-import { ModalBackdrop } from '@rocket.chat/fuselage';
+import { ModalBackdrop } from 'testlark';
 
 export const Backdrop = (props) => <ModalBackdrop bg='transparent' {...props} />;

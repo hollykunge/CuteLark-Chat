@@ -1,4 +1,4 @@
-import { Accordion, Box, Button, ButtonGroup, Skeleton } from '@rocket.chat/fuselage';
+import { Accordion, Box, Button, ButtonGroup, Skeleton } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo, memo } from 'react';
 

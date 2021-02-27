@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Box, Divider } from '@rocket.chat/fuselage';
+import { Box, Divider } from 'testlark';
 import flattenChildren from 'react-keyed-flatten-children';
 
 const CounterRow = ({ children, ...props }) => <Box

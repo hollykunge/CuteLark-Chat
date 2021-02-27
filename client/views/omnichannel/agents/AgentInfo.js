@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Margins, Button, Icon, ButtonGroup } from '@rocket.chat/fuselage';
+import { Box, Margins, Button, Icon, ButtonGroup } from 'testlark';
 import { useSubscription } from 'use-subscription';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

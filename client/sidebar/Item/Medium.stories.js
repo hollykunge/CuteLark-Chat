@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, ActionButton } from '@rocket.chat/fuselage';
+import { Box, ActionButton } from 'testlark';
 
 import Medium from './Medium';
 import * as Status from '../../components/UserStatus';

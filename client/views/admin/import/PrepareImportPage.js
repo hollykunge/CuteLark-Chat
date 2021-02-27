@@ -7,7 +7,7 @@ import {
 	Margins,
 	Throbber,
 	Tabs,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 import { useDebouncedValue, useSafely } from '@rocket.chat/fuselage-hooks';
 import React, { useEffect, useState, useMemo } from 'react';
 import s from 'underscore.string';

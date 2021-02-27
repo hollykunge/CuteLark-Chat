@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, ActionButton, Badge } from '@rocket.chat/fuselage';
+import { Box, ActionButton, Badge } from 'testlark';
 
 import Extended from './Extended';
 import * as Status from '../../components/UserStatus';

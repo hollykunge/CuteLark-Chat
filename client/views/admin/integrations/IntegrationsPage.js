@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Icon, Tabs } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon, Tabs } from 'testlark';
 import React, { useEffect, useCallback } from 'react';
 
 import Page from '../../../components/Page';

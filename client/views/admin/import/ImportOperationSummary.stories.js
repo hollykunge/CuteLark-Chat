@@ -1,4 +1,4 @@
-import { Table } from '@rocket.chat/fuselage';
+import { Table } from 'testlark';
 import React from 'react';
 
 import ImportOperationSummary from './ImportOperationSummary';

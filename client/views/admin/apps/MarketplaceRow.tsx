@@ -1,4 +1,4 @@
-import { Box, Table, Tag } from '@rocket.chat/fuselage';
+import { Box, Table, Tag } from 'testlark';
 import React, { useState, memo, FC, KeyboardEvent, MouseEvent } from 'react';
 
 import AppAvatar from '../../../components/avatar/AppAvatar';

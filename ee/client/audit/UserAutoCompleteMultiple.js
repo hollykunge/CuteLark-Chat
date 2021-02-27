@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { AutoComplete, Box, Option, Options, Chip } from '@rocket.chat/fuselage';
+import { AutoComplete, Box, Option, Options, Chip } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import UserAvatar from '../../../client/components/avatar/UserAvatar';

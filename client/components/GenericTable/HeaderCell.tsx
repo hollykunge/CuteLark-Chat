@@ -1,4 +1,4 @@
-import { Box, Table } from '@rocket.chat/fuselage';
+import { Box, Table } from 'testlark';
 import React, { FC, useCallback } from 'react';
 
 import SortIcon from './SortIcon';

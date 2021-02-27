@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Box, Chip, Divider, Margins } from '@rocket.chat/fuselage';
+import { Box, Chip, Divider, Margins } from 'testlark';
 
 import AppAvatar from '../../../components/avatar/AppAvatar';
 import ExternalLink from '../../../components/ExternalLink';

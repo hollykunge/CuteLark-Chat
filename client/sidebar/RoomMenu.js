@@ -1,4 +1,4 @@
-import { Option, Menu } from '@rocket.chat/fuselage';
+import { Option, Menu } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo } from 'react';
 

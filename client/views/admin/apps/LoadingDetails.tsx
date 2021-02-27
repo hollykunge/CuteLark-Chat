@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Box, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Skeleton } from 'testlark';
 
 const LoadingDetails: FC = () =>
 	<Box display='flex' flexDirection='row' mbe='x20' w='full'>

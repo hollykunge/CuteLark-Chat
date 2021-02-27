@@ -6,7 +6,7 @@ import {
 	Options,
 	useCursor,
 	Box,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 
 import { useTranslation } from '../contexts/TranslationContext';
 import { UserStatus } from './UserStatus';

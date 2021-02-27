@@ -2,7 +2,7 @@
 
 import { useDebouncedValue, useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo, useCallback, useState } from 'react';
-import { Table, Icon, Button } from '@rocket.chat/fuselage';
+import { Table, Icon, Button } from 'testlark';
 import moment from 'moment';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 

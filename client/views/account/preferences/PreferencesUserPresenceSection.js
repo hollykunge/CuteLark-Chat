@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Accordion, Field, NumberInput, FieldGroup, ToggleSwitch } from '@rocket.chat/fuselage';
+import { Accordion, Field, NumberInput, FieldGroup, ToggleSwitch } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useUserPreference } from '../../../contexts/UserContext';

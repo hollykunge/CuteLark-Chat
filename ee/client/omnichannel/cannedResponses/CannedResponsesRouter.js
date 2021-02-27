@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
-import { ButtonGroup, Button, Icon, TextInput } from '@rocket.chat/fuselage';
+import { ButtonGroup, Button, Icon, TextInput } from 'testlark';
 
 import CannedResponseEdit from './CannedResponseEdit';
 import CannedResponseDetails from './CannedResponseDetails';

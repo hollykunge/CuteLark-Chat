@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Margins, ButtonGroup, Button, Icon } from '@rocket.chat/fuselage';
+import { Box, Margins, ButtonGroup, Button, Icon } from 'testlark';
 import { css } from '@rocket.chat/css-in-js';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 

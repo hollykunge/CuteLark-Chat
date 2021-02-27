@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { css } from '@rocket.chat/css-in-js';
-import { Box, Icon, ActionButton } from '@rocket.chat/fuselage';
+import { Box, Icon, ActionButton } from 'testlark';
 
 import { useTranslation } from '../contexts/TranslationContext';
 import { useRoutePath } from '../contexts/RouterContext';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Accordion } from '@rocket.chat/fuselage';
+import { Box, Accordion } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useSetting } from '../../../contexts/SettingsContext';

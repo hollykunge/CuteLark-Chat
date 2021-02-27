@@ -4,7 +4,7 @@ import {
 	Table,
 	Tag,
 	Pagination,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 import React, { useState, useCallback, FC, Dispatch, SetStateAction, ChangeEvent } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

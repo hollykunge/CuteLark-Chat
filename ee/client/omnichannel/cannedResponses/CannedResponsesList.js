@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Margins } from '@rocket.chat/fuselage';
+import { Box, Margins } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';

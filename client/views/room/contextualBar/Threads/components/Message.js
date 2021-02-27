@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, Icon } from '@rocket.chat/fuselage';
+import { Box, Button, Icon } from 'testlark';
 import { css } from '@rocket.chat/css-in-js';
 
 import UserAvatar from '../../../../../components/avatar/UserAvatar';

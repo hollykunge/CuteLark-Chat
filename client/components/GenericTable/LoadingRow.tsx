@@ -1,4 +1,4 @@
-import { Box, Skeleton, Table } from '@rocket.chat/fuselage';
+import { Box, Skeleton, Table } from 'testlark';
 import React, { FC } from 'react';
 
 type LoadingRowProps = {

@@ -1,4 +1,4 @@
-import { Field } from '@rocket.chat/fuselage';
+import { Field } from 'testlark';
 import React from 'react';
 
 import { ActionSettingInput } from './ActionSettingInput';

@@ -1,4 +1,4 @@
-import { Field, ToggleSwitch } from '@rocket.chat/fuselage';
+import { Field, ToggleSwitch } from 'testlark';
 import React from 'react';
 
 import { ResetSettingButton } from '../ResetSettingButton';

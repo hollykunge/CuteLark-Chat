@@ -1,4 +1,4 @@
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 import React, { useState } from 'react';
 
 function Logo({ src = 'images/logo/logo.svg', ...props }) {

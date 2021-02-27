@@ -1,4 +1,4 @@
-import { Box, ScrollableProps } from '@rocket.chat/fuselage';
+import { Box, ScrollableProps } from 'testlark';
 import { useMediaQuery } from '@rocket.chat/fuselage-hooks';
 import React, { createContext, useContext, useState, FC, Dispatch, SetStateAction } from 'react';
 

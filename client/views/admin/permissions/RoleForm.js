@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Box, Field, TextInput, Select, ToggleSwitch } from '@rocket.chat/fuselage';
+import { Box, Field, TextInput, Select, ToggleSwitch } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput, Box, Icon } from '@rocket.chat/fuselage';
+import { TextInput, Box, Icon } from 'testlark';
 
 import GenericTable from './GenericTable';
 

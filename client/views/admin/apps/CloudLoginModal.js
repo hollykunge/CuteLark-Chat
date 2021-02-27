@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Icon, Modal } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon, Modal } from 'testlark';
 import React from 'react';
 
 import { useSetModal } from '../../../contexts/ModalContext';

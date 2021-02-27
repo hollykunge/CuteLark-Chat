@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Sidebar, TextInput, Box, Icon } from '@rocket.chat/fuselage';
+import { Sidebar, TextInput, Box, Icon } from 'testlark';
 import { useMutableCallback, useDebouncedValue, useStableArray, useResizeObserver, useAutoFocus, useUniqueId } from '@rocket.chat/fuselage-hooks';
 import memoize from 'memoize-one';
 import { css } from '@rocket.chat/css-in-js';

@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Box, Skeleton, Button, ButtonGroup, TextInput, Field, ToggleSwitch, Icon, Callout, TextAreaInput } from '@rocket.chat/fuselage';
+import { Box, Skeleton, Button, ButtonGroup, TextInput, Field, ToggleSwitch, Icon, Callout, TextAreaInput } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import VerticalBar from '../../../components/VerticalBar';

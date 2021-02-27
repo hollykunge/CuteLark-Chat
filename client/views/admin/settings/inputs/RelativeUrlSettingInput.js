@@ -1,4 +1,4 @@
-import { Box, Field, Flex, UrlInput } from '@rocket.chat/fuselage';
+import { Box, Field, Flex, UrlInput } from 'testlark';
 import React from 'react';
 
 import { useAbsoluteUrl } from '../../../../contexts/ServerContext';

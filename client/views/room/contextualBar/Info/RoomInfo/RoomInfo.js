@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
-import { Box, Icon, Button, ButtonGroup, Divider, Callout } from '@rocket.chat/fuselage';
+import { Box, Icon, Button, ButtonGroup, Divider, Callout } from 'testlark';
 import { css } from '@rocket.chat/css-in-js';
 
 import RoomAvatar from '../../../../../components/avatar/RoomAvatar';

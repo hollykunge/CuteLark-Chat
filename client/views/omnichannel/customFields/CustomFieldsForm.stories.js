@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 
 import CustomFieldsForm from './CustomFieldsForm';
 import { useForm } from '../../../hooks/useForm';

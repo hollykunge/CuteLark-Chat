@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup, Flex, Margins } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Flex, Margins } from 'testlark';
 import React from 'react';
 
 import ConnectionStatusAlert from '../../components/connectionStatus/ConnectionStatusAlert';

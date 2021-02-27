@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { SelectFiltered, Field } from '@rocket.chat/fuselage';
+import { SelectFiltered, Field } from 'testlark';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 import { useTimezoneNameList } from '../../../../client/hooks/useTimezoneNameList';

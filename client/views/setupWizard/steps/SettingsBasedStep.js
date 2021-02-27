@@ -7,7 +7,7 @@ import {
 	Select,
 	Skeleton,
 	TextInput,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 import { useAutoFocus } from '@rocket.chat/fuselage-hooks';
 import React, { useEffect, useReducer, useState, useCallback, useMemo } from 'react';
 

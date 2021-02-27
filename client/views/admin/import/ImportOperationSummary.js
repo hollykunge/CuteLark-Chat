@@ -1,4 +1,4 @@
-import { Skeleton, Table } from '@rocket.chat/fuselage';
+import { Skeleton, Table } from 'testlark';
 import React, { useMemo } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

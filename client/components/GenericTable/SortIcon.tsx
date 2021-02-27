@@ -1,4 +1,4 @@
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 import React, { FC } from 'react';
 
 type SortIconProps = {

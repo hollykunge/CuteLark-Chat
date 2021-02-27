@@ -1,4 +1,4 @@
-import { Box, Throbber } from '@rocket.chat/fuselage';
+import { Box, Throbber } from 'testlark';
 import React, { useMemo } from 'react';
 
 import { AsyncStatePhase } from '../../../hooks/useAsyncState';

@@ -3,7 +3,7 @@ import {
 	Option,
 	ActionButton,
 	Menu,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 import { usePrefersReducedMotion } from '@rocket.chat/fuselage-hooks';
 
 

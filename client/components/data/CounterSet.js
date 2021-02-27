@@ -1,4 +1,4 @@
-import { Grid } from '@rocket.chat/fuselage';
+import { Grid } from 'testlark';
 import React from 'react';
 
 import Counter from './Counter';

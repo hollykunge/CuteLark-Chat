@@ -1,4 +1,4 @@
-import { Margins } from '@rocket.chat/fuselage';
+import { Margins } from 'testlark';
 import React from 'react';
 
 import { UsersTab } from '.';

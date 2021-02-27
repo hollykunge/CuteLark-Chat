@@ -1,4 +1,4 @@
-import { Box, Accordion } from '@rocket.chat/fuselage';
+import { Box, Accordion } from 'testlark';
 import React, { FC } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

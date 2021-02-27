@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState, useMemo } from 'react';
-import { Accordion, Field, Select, FieldGroup, ToggleSwitch, Button, Box } from '@rocket.chat/fuselage';
+import { Accordion, Field, Select, FieldGroup, ToggleSwitch, Button, Box } from 'testlark';
 
 import { KonchatNotification } from '../../../../app/ui';
 import { useTranslation } from '../../../contexts/TranslationContext';

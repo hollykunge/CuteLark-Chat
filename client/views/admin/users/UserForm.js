@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useState } from 'react';
-import { Field, TextInput, TextAreaInput, PasswordInput, MultiSelectFiltered, Box, ToggleSwitch, Icon, Divider, FieldGroup } from '@rocket.chat/fuselage';
+import { Field, TextInput, TextAreaInput, PasswordInput, MultiSelectFiltered, Box, ToggleSwitch, Icon, Divider, FieldGroup } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { isEmail } from '../../../../app/utils/lib/isEmail.js';

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Button, ButtonGroup } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import BusinessHoursFormContainer from './BusinessHoursFormContainer';

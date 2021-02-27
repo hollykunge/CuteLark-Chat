@@ -1,4 +1,4 @@
-import { Badge } from '@rocket.chat/fuselage';
+import { Badge } from 'testlark';
 import React from 'react';
 
 function BurgerBadge({ children }) {

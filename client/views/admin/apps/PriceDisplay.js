@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { formatPricingPlan, formatPrice } from './helpers';

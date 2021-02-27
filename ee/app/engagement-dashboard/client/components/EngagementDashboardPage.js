@@ -1,4 +1,4 @@
-import { Box, Tabs } from '@rocket.chat/fuselage';
+import { Box, Tabs } from 'testlark';
 import React, { useMemo } from 'react';
 
 import { useTranslation } from '../../../../../client/contexts/TranslationContext';

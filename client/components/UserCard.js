@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { Box, Tag, ActionButton, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Tag, ActionButton, Skeleton } from 'testlark';
 
 import UserAvatar from './avatar/UserAvatar';
 import * as Status from './UserStatus';

@@ -12,7 +12,7 @@ import {
 	TextAreaInput,
 	ToggleSwitch,
 	FieldGroup,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useMethod, useAbsoluteUrl } from '../../../contexts/ServerContext';

@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Accordion, Field, FieldGroup, ButtonGroup, Button, Icon, Box } from '@rocket.chat/fuselage';
+import { Accordion, Field, FieldGroup, ButtonGroup, Button, Icon, Box } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useToastMessageDispatch } from '../../../contexts/ToastMessagesContext';

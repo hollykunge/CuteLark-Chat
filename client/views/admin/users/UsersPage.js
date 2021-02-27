@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Icon } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon } from 'testlark';
 import React from 'react';
 
 import Page from '../../../components/Page';

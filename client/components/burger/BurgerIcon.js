@@ -1,5 +1,5 @@
 import { css } from '@rocket.chat/css-in-js';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 import { usePrefersReducedMotion } from '@rocket.chat/fuselage-hooks';
 import React from 'react';
 

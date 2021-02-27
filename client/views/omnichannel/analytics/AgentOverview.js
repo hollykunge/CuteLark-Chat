@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Table } from '@rocket.chat/fuselage';
+import { Table } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useMethodData } from '../../../hooks/useMethodData';

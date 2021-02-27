@@ -6,7 +6,7 @@ import {
 	Margins,
 	TextInput,
 	Select,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 import React, { useCallback } from 'react';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';

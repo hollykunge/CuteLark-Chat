@@ -1,4 +1,4 @@
-import { Box, Button, Tile } from '@rocket.chat/fuselage';
+import { Box, Button, Tile } from 'testlark';
 import React from 'react';
 
 import { useSetting, useSettingSetValue } from '../../../contexts/SettingsContext';

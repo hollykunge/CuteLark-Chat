@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Button, ButtonGroup, Icon, Modal } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon, Modal } from 'testlark';
 
 import { useTranslation } from '../contexts/TranslationContext';
 

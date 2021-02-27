@@ -1,4 +1,4 @@
-import { Skeleton } from '@rocket.chat/fuselage';
+import { Skeleton } from 'testlark';
 import React from 'react';
 
 import Subtitle from '../../../components/Subtitle';

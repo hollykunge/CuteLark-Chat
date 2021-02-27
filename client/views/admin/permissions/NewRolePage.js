@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, FieldGroup, ButtonGroup, Button, Margins } from '@rocket.chat/fuselage';
+import { Box, FieldGroup, ButtonGroup, Button, Margins } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import RoleForm from './RoleForm';

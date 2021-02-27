@@ -1,4 +1,4 @@
-import { Box, Field, Flex, TextAreaInput, TextInput, Callout, Margins } from '@rocket.chat/fuselage';
+import { Box, Field, Flex, TextAreaInput, TextInput, Callout, Margins } from 'testlark';
 import React from 'react';
 
 import { ResetSettingButton } from '../ResetSettingButton';

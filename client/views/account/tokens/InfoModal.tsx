@@ -1,5 +1,5 @@
 import React, { FC, ReactNode } from 'react';
-import { Button, ButtonGroup, Modal } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Modal } from 'testlark';
 
 type InfoModalProps = {
 	title: string;

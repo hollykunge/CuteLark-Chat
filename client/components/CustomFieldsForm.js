@@ -1,5 +1,5 @@
 import React, { useMemo, useEffect, useState } from 'react';
-import { TextInput, Select, Field } from '@rocket.chat/fuselage';
+import { TextInput, Select, Field } from 'testlark';
 
 import { useSetting } from '../contexts/SettingsContext';
 import { useForm } from '../hooks/useForm';

@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup, Scrollable, Throbber, Modal } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Scrollable, Throbber, Modal } from 'testlark';
 import React, { ChangeEvent, FC, useState } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

@@ -1,4 +1,4 @@
-import { Box, TextInput, Button, Field, FieldGroup, Margins, CheckBox } from '@rocket.chat/fuselage';
+import { Box, TextInput, Button, Field, FieldGroup, Margins, CheckBox } from 'testlark';
 import { useUniqueId } from '@rocket.chat/fuselage-hooks';
 import React, { useCallback } from 'react';
 

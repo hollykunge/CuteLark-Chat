@@ -1,4 +1,4 @@
-import { Box, Table } from '@rocket.chat/fuselage';
+import { Box, Table } from 'testlark';
 import { useDebouncedValue, useMediaQuery } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo, useCallback, useState } from 'react';
 

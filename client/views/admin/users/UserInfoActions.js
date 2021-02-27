@@ -1,4 +1,4 @@
-import { ButtonGroup, Menu, Option } from '@rocket.chat/fuselage';
+import { ButtonGroup, Menu, Option } from 'testlark';
 import React, { useCallback, useMemo } from 'react';
 
 import { useUserInfoActionsSpread } from '../../room/hooks/useUserInfoActions';

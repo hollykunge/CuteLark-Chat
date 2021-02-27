@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Icon } from '@rocket.chat/fuselage';
+import { Button, Icon } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import Page from '../../../components/Page';

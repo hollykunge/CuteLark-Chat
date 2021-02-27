@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { Box, Button, TextInput, Margins } from '@rocket.chat/fuselage';
+import { Box, Button, TextInput, Margins } from 'testlark';
 import { useSafely } from '@rocket.chat/fuselage-hooks';
 import qrcode from 'yaqrcode';
 

@@ -1,4 +1,4 @@
-import { Box, Divider } from '@rocket.chat/fuselage';
+import { Box, Divider } from 'testlark';
 import React, { FC } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

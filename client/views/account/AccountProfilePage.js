@@ -1,4 +1,4 @@
-import { ButtonGroup, Button, Box, Icon } from '@rocket.chat/fuselage';
+import { ButtonGroup, Button, Box, Icon } from 'testlark';
 import { SHA256 } from 'meteor/sha';
 import React, { useMemo, useState, useCallback } from 'react';
 

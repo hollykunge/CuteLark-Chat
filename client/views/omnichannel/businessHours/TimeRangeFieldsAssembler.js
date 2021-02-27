@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Field } from '@rocket.chat/fuselage';
+import { Field } from 'testlark';
 import { useStableArray } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

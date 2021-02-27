@@ -23,7 +23,7 @@ import './messageBoxFollow';
 import { getCommonRoomEvents } from '../../../ui/client/views/app/lib/getCommonRoomEvents';
 
 createTemplateForComponent('Checkbox', async () => {
-	const { CheckBox } = await import('@rocket.chat/fuselage');
+	const { CheckBox } = await import(testlark);
 	return { default: CheckBox };
 }, {
 	// eslint-disable-next-line new-cap

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 
 import BusinessHoursForm from './BusinessHoursForm';
 import { useForm } from '../../../hooks/useForm';

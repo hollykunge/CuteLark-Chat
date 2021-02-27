@@ -1,4 +1,4 @@
-import { Button, ButtonGroup } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup } from 'testlark';
 import React from 'react';
 
 import { useTranslation } from '../../contexts/TranslationContext';

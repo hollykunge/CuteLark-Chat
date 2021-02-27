@@ -1,5 +1,5 @@
 import React, { useMemo, useCallback } from 'react';
-import { Field, Box, Button } from '@rocket.chat/fuselage';
+import { Field, Box, Button } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useEndpointData } from '../../../hooks/useEndpointData';

@@ -1,5 +1,5 @@
 import React, { useMemo, useCallback } from 'react';
-import { Box, Table, Icon, Button } from '@rocket.chat/fuselage';
+import { Box, Table, Icon, Button } from 'testlark';
 
 import FilterByText from '../../../components/FilterByText';
 import GenericTable from '../../../components/GenericTable';

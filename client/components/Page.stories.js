@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Tile } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Tile } from 'testlark';
 import React from 'react';
 
 import { fullHeightDecorator } from '../../.storybook/decorators';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Tag, Modal, ButtonGroup, Button } from '@rocket.chat/fuselage';
+import { Box, Tag, Modal, ButtonGroup, Button } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';

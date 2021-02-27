@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Skeleton } from 'testlark';
 
 import Condensed from '../Condensed';
 

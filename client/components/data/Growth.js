@@ -1,4 +1,4 @@
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 import React from 'react';
 
 import NegativeGrowthSymbol from './NegativeGrowthSymbol';

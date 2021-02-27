@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Tooltip, PositionAnimated, AnimatedVisibility } from '@rocket.chat/fuselage';
+import { Tooltip, PositionAnimated, AnimatedVisibility } from 'testlark';
 
 export const TooltipComponent = ({ title, anchor }) => {
 	const ref = useRef(anchor);

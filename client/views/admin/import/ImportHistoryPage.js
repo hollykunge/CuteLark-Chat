@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Table } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Table } from 'testlark';
 import { useMediaQuery, useSafely } from '@rocket.chat/fuselage-hooks';
 import React, { useState, useEffect, useMemo } from 'react';
 

@@ -1,7 +1,7 @@
 import { Template } from 'meteor/templating';
 import { Blaze } from 'meteor/blaze';
 import React, { useLayoutEffect, useRef } from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 
 export const BlazeTemplate = React.memo(({ name, flexShrink, overflow, onClick, children, ...props }) => {
 	const ref = useRef();

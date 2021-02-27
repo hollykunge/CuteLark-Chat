@@ -1,4 +1,4 @@
-import { Box, Field, Flex, Icon } from '@rocket.chat/fuselage';
+import { Box, Field, Flex, Icon } from 'testlark';
 import { Blaze } from 'meteor/blaze';
 import { Template } from 'meteor/templating';
 import React, { useRef, useEffect, useLayoutEffect } from 'react';

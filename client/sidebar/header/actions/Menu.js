@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from '@rocket.chat/fuselage';
+import { Sidebar } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 

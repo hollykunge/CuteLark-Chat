@@ -1,4 +1,4 @@
-import { Divider } from '@rocket.chat/fuselage';
+import { Divider } from 'testlark';
 import React from 'react';
 
 import { MessagesSentSection } from './MessagesSentSection';

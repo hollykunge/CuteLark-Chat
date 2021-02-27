@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo } from 'react';
-import { Button, ButtonGroup, Icon, Modal, Box } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon, Modal, Box } from 'testlark';
 import { useAutoFocus, useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

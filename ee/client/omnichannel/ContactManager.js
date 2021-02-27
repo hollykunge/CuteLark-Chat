@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 import { css } from '@rocket.chat/css-in-js';
 
 import { useEndpointData } from '../../../client/hooks/useEndpointData';

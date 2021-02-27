@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from '@rocket.chat/fuselage';
+import { Sidebar } from 'testlark';
 
 import { popover } from '../../../../app/ui-utils';
 import { createTemplateForComponent } from '../../../reactAdapters';

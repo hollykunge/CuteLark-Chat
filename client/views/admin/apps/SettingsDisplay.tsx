@@ -1,5 +1,5 @@
 import React, { FC, useMemo, useEffect, MutableRefObject } from 'react';
-import { Box, Divider } from '@rocket.chat/fuselage';
+import { Box, Divider } from 'testlark';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useForm } from '../../../hooks/useForm';

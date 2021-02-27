@@ -1,4 +1,4 @@
-import { Box, Modal } from '@rocket.chat/fuselage';
+import { Box, Modal } from 'testlark';
 import React, { useEffect } from 'react';
 
 const iframeMsgListener = (confirm, cancel) => (e) => {

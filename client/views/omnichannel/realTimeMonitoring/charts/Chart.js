@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 
 const style = {
 	minHeight: '250px',

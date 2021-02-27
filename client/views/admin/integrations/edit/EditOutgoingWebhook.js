@@ -5,7 +5,7 @@ import {
 	Skeleton,
 	Margins,
 	Button,
-} from '@rocket.chat/fuselage';
+} from 'testlark';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';
 import { useEndpointAction } from '../../../../hooks/useEndpointAction';

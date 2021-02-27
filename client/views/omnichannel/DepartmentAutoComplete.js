@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { AutoComplete, Option, Icon } from '@rocket.chat/fuselage';
+import { AutoComplete, Option, Icon } from 'testlark';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useEndpointData } from '../../hooks/useEndpointData';

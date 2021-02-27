@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Skeleton } from 'testlark';
 
 export const FormSkeleton = (props) => <Box w='full' pb='x24' {...props}>
 	<Skeleton mbe='x8' />

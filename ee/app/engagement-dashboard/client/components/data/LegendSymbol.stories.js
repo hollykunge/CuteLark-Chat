@@ -1,4 +1,4 @@
-import { Box, Margins } from '@rocket.chat/fuselage';
+import { Box, Margins } from 'testlark';
 import React from 'react';
 
 import { LegendSymbol } from './LegendSymbol';

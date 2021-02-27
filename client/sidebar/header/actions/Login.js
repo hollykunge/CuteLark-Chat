@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from '@rocket.chat/fuselage';
+import { Sidebar } from 'testlark';
 
 import { useSessionDispatch } from '../../../contexts/SessionContext';
 import { useTranslation } from '../../../contexts/TranslationContext';

@@ -1,4 +1,4 @@
-import { ButtonGroup, Button, Box, Icon, PasswordInput, TextInput, Modal } from '@rocket.chat/fuselage';
+import { ButtonGroup, Button, Box, Icon, PasswordInput, TextInput, Modal } from 'testlark';
 import React, { useState, useCallback, FC } from 'react';
 
 import { useTranslation } from '../../contexts/TranslationContext';

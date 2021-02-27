@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'testlark';
 
 import KeyboardShortcuts from './KeyboardShortcuts';
 import VerticalBar from '../../../../components/VerticalBar';

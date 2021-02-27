@@ -1,4 +1,4 @@
-import { Modal } from '@rocket.chat/fuselage';
+import { Modal } from 'testlark';
 import React, { useState, useMemo, memo } from 'react';
 
 import { modal } from '../../app/ui-utils/client/lib/modal';

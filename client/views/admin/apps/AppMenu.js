@@ -1,4 +1,4 @@
-import { Box, Icon, Menu } from '@rocket.chat/fuselage';
+import { Box, Icon, Menu } from 'testlark';
 import React, { useMemo, useCallback } from 'react';
 
 import { useSetModal } from '../../../contexts/ModalContext';

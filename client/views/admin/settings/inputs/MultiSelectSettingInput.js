@@ -1,4 +1,4 @@
-import { Field, Flex, Box, MultiSelectFiltered, MultiSelect } from '@rocket.chat/fuselage';
+import { Field, Flex, Box, MultiSelectFiltered, MultiSelect } from 'testlark';
 import React from 'react';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';
