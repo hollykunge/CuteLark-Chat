@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 
 export function NotificationStatus({ t = (e) => e, label, ...props }) {
 	return <Box width='x8' aria-label={t(label)} borderRadius='full' height='x8' {...props} />;

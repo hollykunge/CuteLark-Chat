@@ -1,5 +1,5 @@
 import { css } from '@rocket.chat/css-in-js';
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import React from 'react';
 
 import { useTranslation } from '../../contexts/TranslationContext';

@@ -13,7 +13,7 @@ import {
 	Box,
 	Icon,
 	TextAreaInput,
-} from 'testlark';
+} from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import VerticalBar from '../../../../../components/VerticalBar';

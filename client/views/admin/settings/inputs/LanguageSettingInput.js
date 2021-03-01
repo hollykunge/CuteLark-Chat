@@ -1,4 +1,4 @@
-import { Box, Field, Flex, Select } from 'testlark';
+import { Box, Field, Flex, Select } from 'cutelark-ui';
 import React from 'react';
 
 import { useLanguages } from '../../../../contexts/TranslationContext';

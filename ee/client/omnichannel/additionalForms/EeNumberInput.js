@@ -1,5 +1,5 @@
 import React from 'react';
-import { NumberInput, Field } from 'testlark';
+import { NumberInput, Field } from 'cutelark-ui';
 // import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';

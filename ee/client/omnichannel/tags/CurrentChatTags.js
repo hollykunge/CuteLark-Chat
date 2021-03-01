@@ -1,4 +1,4 @@
-import { MultiSelect } from 'testlark';
+import { MultiSelect } from 'cutelark-ui';
 import React, { useMemo } from 'react';
 
 import { useEndpointData } from '../../../../client/hooks/useEndpointData';

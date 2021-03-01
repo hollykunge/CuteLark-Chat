@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';
 

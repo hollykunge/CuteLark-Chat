@@ -1,4 +1,4 @@
-import { Badge } from 'testlark';
+import { Badge } from 'cutelark-ui';
 import React from 'react';
 
 function BurgerBadge({ children }) {

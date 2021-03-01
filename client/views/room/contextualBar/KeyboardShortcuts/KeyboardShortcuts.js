@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
-import { Box, Divider } from 'testlark';
+import { Box, Divider } from 'cutelark-ui';
 
 
 import { useTranslation } from '../../../../contexts/TranslationContext';

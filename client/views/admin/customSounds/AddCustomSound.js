@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Field, TextInput, Box, Icon, Margins, Button, ButtonGroup } from 'testlark';
+import { Field, TextInput, Box, Icon, Margins, Button, ButtonGroup } from 'cutelark-ui';
 
 import { useToastMessageDispatch } from '../../../contexts/ToastMessagesContext';
 import { useTranslation } from '../../../contexts/TranslationContext';

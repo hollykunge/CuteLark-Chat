@@ -1,6 +1,6 @@
 
 import React, { useMemo } from 'react';
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { UserInfo } from '../../room/contextualBar/UserInfo';

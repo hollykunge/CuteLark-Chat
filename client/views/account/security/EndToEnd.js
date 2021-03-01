@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from 'react';
-import { Box, Margins, PasswordInput, Field, FieldGroup, Button } from 'testlark';
+import { Box, Margins, PasswordInput, Field, FieldGroup, Button } from 'cutelark-ui';
 import { useLocalStorage } from '@rocket.chat/fuselage-hooks';
 
 import { e2e } from '../../../../app/e2e/client/rocketchat.e2e';

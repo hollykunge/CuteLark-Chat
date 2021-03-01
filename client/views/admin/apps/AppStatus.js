@@ -1,4 +1,4 @@
-import { Box, Button, Icon, Throbber } from 'testlark';
+import { Box, Button, Icon, Throbber } from 'cutelark-ui';
 import { useSafely } from '@rocket.chat/fuselage-hooks';
 import React, { useCallback, useState, memo } from 'react';
 

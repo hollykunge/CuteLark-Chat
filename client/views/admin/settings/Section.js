@@ -1,4 +1,4 @@
-import { Accordion, Box, Button, FieldGroup, Skeleton } from 'testlark';
+import { Accordion, Box, Button, FieldGroup, Skeleton } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo } from 'react';
 

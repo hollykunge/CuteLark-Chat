@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Icon, ToggleSwitch, RadioButton, Box, Flex, Margins, CheckBox, Divider } from 'testlark';
+import { Icon, ToggleSwitch, RadioButton, Box, Flex, Margins, CheckBox, Divider } from 'cutelark-ui';
 
 
 import { useTranslation } from '../contexts/TranslationContext';

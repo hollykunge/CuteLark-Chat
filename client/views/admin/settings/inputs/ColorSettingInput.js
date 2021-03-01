@@ -6,7 +6,7 @@ import {
 	Margins,
 	TextInput,
 	Select,
-} from 'testlark';
+} from 'cutelark-ui';
 import React, { useCallback } from 'react';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';

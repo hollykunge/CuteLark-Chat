@@ -1,4 +1,4 @@
-import { Box, Button, Tile } from 'testlark';
+import { Box, Button, Tile } from 'cutelark-ui';
 import React from 'react';
 
 import { useSetting, useSettingSetValue } from '../../../contexts/SettingsContext';

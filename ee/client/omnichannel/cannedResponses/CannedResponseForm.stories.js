@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 
 import CannedResponseForm from './CannedResponseForm';
 import { useForm } from '../../../../client/hooks/useForm';

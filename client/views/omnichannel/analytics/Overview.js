@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from 'react';
-import { Box, Skeleton } from 'testlark';
+import { Box, Skeleton } from 'cutelark-ui';
 
 import CounterItem from '../realTimeMonitoring/counter/CounterItem';
 import CounterRow from '../realTimeMonitoring/counter/CounterRow';

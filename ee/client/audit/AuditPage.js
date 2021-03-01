@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Box, Field, TextInput, ButtonGroup, Button, Margins, Tabs } from 'testlark';
+import { Box, Field, TextInput, ButtonGroup, Button, Margins, Tabs } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import Page from '../../../client/components/Page';

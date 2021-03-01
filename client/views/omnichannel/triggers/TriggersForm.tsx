@@ -1,5 +1,5 @@
 import React, { FC, FormEvent, useMemo, useState } from 'react';
-import { Box, Field, TextInput, ToggleSwitch, BoxClassName, Select, TextAreaInput, SelectOptions } from 'testlark';
+import { Box, Field, TextInput, ToggleSwitch, BoxClassName, Select, TextAreaInput, SelectOptions } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

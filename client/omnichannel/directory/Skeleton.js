@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Skeleton } from 'testlark';
+import { Box, Skeleton } from 'cutelark-ui';
 
 export const FormSkeleton = (props) => <Box w='full' pb='x24' {...props}>
 	<Skeleton mbe='x8' />

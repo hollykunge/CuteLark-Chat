@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Box, ButtonGroup, Icon, Modal } from 'testlark';
+import { Button, Box, ButtonGroup, Icon, Modal } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';
 

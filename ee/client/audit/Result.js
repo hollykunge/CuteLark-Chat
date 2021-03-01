@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import { useStableArray } from '@rocket.chat/fuselage-hooks';
 import { Template } from 'meteor/templating';
 import { Blaze } from 'meteor/blaze';

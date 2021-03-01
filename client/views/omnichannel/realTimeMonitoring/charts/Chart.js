@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 
 const style = {
 	minHeight: '250px',

@@ -6,7 +6,7 @@ import {
 	Options,
 	useCursor,
 	Box,
-} from 'testlark';
+} from 'cutelark-ui';
 
 import { useTranslation } from '../contexts/TranslationContext';
 import { UserStatus } from './UserStatus';

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Tag } from 'testlark';
+import { Box, Tag } from 'cutelark-ui';
 import { useSafely } from '@rocket.chat/fuselage-hooks';
 
 import { useMethod } from '../contexts/ServerContext';

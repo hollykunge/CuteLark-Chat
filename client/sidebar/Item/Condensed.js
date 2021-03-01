@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sidebar, ActionButton } from 'testlark';
+import { Sidebar, ActionButton } from 'cutelark-ui';
 import { useMutableCallback, usePrefersReducedMotion } from '@rocket.chat/fuselage-hooks';
 
 const Condensed = React.memo(({

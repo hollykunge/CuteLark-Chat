@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from 'testlark';
+import { Sidebar } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useToastMessageDispatch } from '../../contexts/ToastMessagesContext';

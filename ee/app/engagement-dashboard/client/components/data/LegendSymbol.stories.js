@@ -1,4 +1,4 @@
-import { Box, Margins } from 'testlark';
+import { Box, Margins } from 'cutelark-ui';
 import React from 'react';
 
 import { LegendSymbol } from './LegendSymbol';

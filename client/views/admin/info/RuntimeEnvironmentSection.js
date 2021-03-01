@@ -1,4 +1,4 @@
-import { Skeleton } from 'testlark';
+import { Skeleton } from 'cutelark-ui';
 import React from 'react';
 import s from 'underscore.string';
 

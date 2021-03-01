@@ -1,4 +1,4 @@
-import { Field, Flex, Box, MultiSelectFiltered, MultiSelect } from 'testlark';
+import { Field, Flex, Box, MultiSelectFiltered, MultiSelect } from 'cutelark-ui';
 import React from 'react';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';

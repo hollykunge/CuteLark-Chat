@@ -1,7 +1,7 @@
 
 import { useDebouncedValue, useMediaQuery, useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo, useCallback, useState } from 'react';
-import { Box, Table, Icon, Button } from 'testlark';
+import { Box, Table, Icon, Button } from 'cutelark-ui';
 
 import GenericTable from '../../../components/GenericTable';
 import { useTranslation } from '../../../contexts/TranslationContext';

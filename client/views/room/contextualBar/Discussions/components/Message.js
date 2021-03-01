@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Icon } from 'testlark';
+import { Box, Icon } from 'cutelark-ui';
 
 import UserAvatar from '../../../../../components/avatar/UserAvatar';
 import RawText from '../../../../../components/RawText';

@@ -1,4 +1,4 @@
-import { Box, Throbber } from 'testlark';
+import { Box, Throbber } from 'cutelark-ui';
 import React, { useMemo } from 'react';
 
 import { AsyncStatePhase } from '../../../hooks/useAsyncState';

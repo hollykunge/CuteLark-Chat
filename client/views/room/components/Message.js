@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Margins, Skeleton } from 'testlark';
+import { Box, Margins, Skeleton } from 'cutelark-ui';
 import { css } from '@rocket.chat/css-in-js';
 
 export const MessageSkeleton = React.memo(function MessageSkeleton(props) {

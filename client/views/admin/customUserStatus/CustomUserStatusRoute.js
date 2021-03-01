@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useCallback } from 'react';
-import { Button, Icon } from 'testlark';
+import { Button, Icon } from 'cutelark-ui';
 import { useDebouncedValue } from '@rocket.chat/fuselage-hooks';
 
 import Page from '../../../components/Page';

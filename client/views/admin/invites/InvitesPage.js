@@ -3,7 +3,7 @@ import {
 	Icon,
 	Table,
 	Box,
-} from 'testlark';
+} from 'cutelark-ui';
 import { useMediaQuery } from '@rocket.chat/fuselage-hooks';
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';

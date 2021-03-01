@@ -1,4 +1,4 @@
-import { Table, Callout, Icon, Button } from 'testlark';
+import { Table, Callout, Icon, Button } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useState, memo, useMemo } from 'react';
 

@@ -1,4 +1,4 @@
-import { Box, Table } from 'testlark';
+import { Box, Table } from 'cutelark-ui';
 import React, { FC, useCallback } from 'react';
 
 import SortIcon from './SortIcon';

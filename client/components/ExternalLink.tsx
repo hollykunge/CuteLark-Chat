@@ -1,4 +1,4 @@
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import React, { FC } from 'react';
 
 type ExternalLinkProps = {

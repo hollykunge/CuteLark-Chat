@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { Box, Icon, Scrollable } from 'testlark';
+import { Box, Icon, Scrollable } from 'cutelark-ui';
 
 import Page from '../../../components/Page';
 import { useToastMessageDispatch } from '../../../contexts/ToastMessagesContext';

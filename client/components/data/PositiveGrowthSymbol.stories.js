@@ -1,4 +1,4 @@
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import React from 'react';
 
 import PositiveGrowthSymbol from './PositiveGrowthSymbol';

@@ -1,7 +1,7 @@
 
 import { useMediaQuery, useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useState, useEffect } from 'react';
-import { Box, Table, Icon, Button, NumberInput } from 'testlark';
+import { Box, Table, Icon, Button, NumberInput } from 'cutelark-ui';
 
 import GenericTable from '../../../components/GenericTable';
 import { useTranslation } from '../../../contexts/TranslationContext';

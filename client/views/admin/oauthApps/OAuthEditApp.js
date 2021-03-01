@@ -12,7 +12,7 @@ import {
 	TextAreaInput,
 	ToggleSwitch,
 	FieldGroup,
-} from 'testlark';
+} from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useMethod, useAbsoluteUrl } from '../../../contexts/ServerContext';

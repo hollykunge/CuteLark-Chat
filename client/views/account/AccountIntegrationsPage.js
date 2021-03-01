@@ -1,5 +1,5 @@
 import React, { useMemo, useCallback } from 'react';
-import { Box, Select, Field, Button } from 'testlark';
+import { Box, Select, Field, Button } from 'cutelark-ui';
 
 import { useReactiveValue } from '../../hooks/useReactiveValue';
 import { useTranslation } from '../../contexts/TranslationContext';

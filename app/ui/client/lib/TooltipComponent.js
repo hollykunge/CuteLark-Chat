@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Tooltip, PositionAnimated, AnimatedVisibility } from 'testlark';
+import { Tooltip, PositionAnimated, AnimatedVisibility } from 'cutelark-ui';
 
 export const TooltipComponent = ({ title, anchor }) => {
 	const ref = useRef(anchor);

@@ -1,4 +1,4 @@
-import { Button, Icon } from 'testlark';
+import { Button, Icon } from 'cutelark-ui';
 import React from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

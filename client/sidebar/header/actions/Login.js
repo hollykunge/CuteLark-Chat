@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from 'testlark';
+import { Sidebar } from 'cutelark-ui';
 
 import { useSessionDispatch } from '../../../contexts/SessionContext';
 import { useTranslation } from '../../../contexts/TranslationContext';

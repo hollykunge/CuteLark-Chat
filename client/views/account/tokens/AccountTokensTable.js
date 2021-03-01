@@ -1,4 +1,4 @@
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import React, { useMemo, useCallback, useState } from 'react';
 
 import GenericTable from '../../../components/GenericTable';

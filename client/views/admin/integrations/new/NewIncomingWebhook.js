@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo } from 'react';
-import { Field, Box, Margins, Button } from 'testlark';
+import { Field, Box, Margins, Button } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';
 import { useRoute } from '../../../../contexts/RouterContext';

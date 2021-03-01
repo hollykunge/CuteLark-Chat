@@ -1,4 +1,4 @@
-declare namespace testlark {
+declare namespace cutelark-ui {
 	import { css } from '@rocket.chat/css-in-js';
 	import { Placements } from '@rocket.chat/fuselage-hooks';
 	import {
@@ -149,9 +149,9 @@ declare namespace testlark {
 		maxSize?: CSSProperties['blockSize'];
 		fontScale?: FontScale;
 	}>
-	& Omit<AllHTMLAttributes<HTMLOrSVGElement>, 'className'>
-	& Omit<SVGAttributes<SVGElement>, keyof AllHTMLAttributes<HTMLOrSVGElement>>
-	& RefAttributes<unknown>;
+		& Omit<AllHTMLAttributes<HTMLOrSVGElement>, 'className'>
+		& Omit<SVGAttributes<SVGElement>, keyof AllHTMLAttributes<HTMLOrSVGElement>>
+		& RefAttributes<unknown>;
 
 	export const Box: ForwardRefExoticComponent<BoxProps>;
 

@@ -1,4 +1,4 @@
-import { Button, Field, Icon } from 'testlark';
+import { Button, Field, Icon } from 'cutelark-ui';
 import { Random } from 'meteor/random';
 import React from 'react';
 

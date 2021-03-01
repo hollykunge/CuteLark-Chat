@@ -1,4 +1,4 @@
-import { Box, Table } from 'testlark';
+import { Box, Table } from 'cutelark-ui';
 import React from 'react';
 
 const style = { wordBreak: 'break-word' };

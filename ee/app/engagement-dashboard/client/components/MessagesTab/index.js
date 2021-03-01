@@ -1,4 +1,4 @@
-import { Divider } from 'testlark';
+import { Divider } from 'cutelark-ui';
 import React from 'react';
 
 import { MessagesSentSection } from './MessagesSentSection';

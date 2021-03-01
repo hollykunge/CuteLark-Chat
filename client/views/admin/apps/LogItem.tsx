@@ -1,4 +1,4 @@
-import { Box, Accordion } from 'testlark';
+import { Box, Accordion } from 'cutelark-ui';
 import React, { FC } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

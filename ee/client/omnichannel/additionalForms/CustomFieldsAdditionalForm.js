@@ -1,5 +1,5 @@
 import React, { useMemo, useEffect } from 'react';
-import { Box, Field, TextInput, ToggleSwitch, Select } from 'testlark';
+import { Box, Field, TextInput, ToggleSwitch, Select } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 import { useForm } from '../../../../client/hooks/useForm';

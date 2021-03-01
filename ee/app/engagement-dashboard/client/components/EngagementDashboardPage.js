@@ -1,4 +1,4 @@
-import { Box, Tabs } from 'testlark';
+import { Box, Tabs } from 'cutelark-ui';
 import React, { useMemo } from 'react';
 
 import { useTranslation } from '../../../../../client/contexts/TranslationContext';

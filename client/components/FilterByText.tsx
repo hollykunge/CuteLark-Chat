@@ -1,4 +1,4 @@
-import { Box, Icon, TextInput, Button } from 'testlark';
+import { Box, Icon, TextInput, Button } from 'cutelark-ui';
 import React, { FC, ChangeEvent, FormEvent, memo, useCallback, useEffect, useState } from 'react';
 
 import { useTranslation } from '../contexts/TranslationContext';

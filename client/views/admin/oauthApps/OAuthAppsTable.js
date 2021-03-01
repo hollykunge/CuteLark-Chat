@@ -1,4 +1,4 @@
-import { Table } from 'testlark';
+import { Table } from 'cutelark-ui';
 import React, { useMemo, useCallback } from 'react';
 
 import GenericTable from '../../../components/GenericTable';

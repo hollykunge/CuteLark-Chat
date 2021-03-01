@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Accordion, Field, FieldGroup, ButtonGroup, Button, Icon, Box } from 'testlark';
+import { Accordion, Field, FieldGroup, ButtonGroup, Button, Icon, Box } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useToastMessageDispatch } from '../../../contexts/ToastMessagesContext';

@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Box, Table } from 'testlark';
+import { Box, Table } from 'cutelark-ui';
 
 import UserAvatar from '../../../client/components/avatar/UserAvatar';
 import GenericTable from '../../../client/components/GenericTable';

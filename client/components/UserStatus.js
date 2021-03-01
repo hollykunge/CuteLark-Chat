@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StatusBullet } from 'testlark';
+import { StatusBullet } from 'cutelark-ui';
 import { useSafely } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../contexts/TranslationContext';

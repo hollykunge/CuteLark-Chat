@@ -12,7 +12,7 @@ import {
 	TextInput,
 	Throbber,
 	UrlInput,
-} from 'testlark';
+} from 'cutelark-ui';
 import { useUniqueId, useSafely } from '@rocket.chat/fuselage-hooks';
 import React, { useState, useMemo, useEffect } from 'react';
 

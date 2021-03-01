@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Menu, Icon, Avatar } from 'testlark';
+import { Box, Menu, Icon, Avatar } from 'cutelark-ui';
 import { css } from '@rocket.chat/css-in-js';
 import colors from '@rocket.chat/fuselage-tokens/colors';
 

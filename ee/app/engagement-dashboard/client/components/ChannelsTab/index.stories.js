@@ -1,4 +1,4 @@
-import { Margins } from 'testlark';
+import { Margins } from 'cutelark-ui';
 import React from 'react';
 
 import { ChannelsTab } from '.';

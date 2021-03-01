@@ -1,4 +1,4 @@
-import { Skeleton, Table } from 'testlark';
+import { Skeleton, Table } from 'cutelark-ui';
 import React, { useMemo } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

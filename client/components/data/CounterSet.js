@@ -1,4 +1,4 @@
-import { Grid } from 'testlark';
+import { Grid } from 'cutelark-ui';
 import React from 'react';
 
 import Counter from './Counter';

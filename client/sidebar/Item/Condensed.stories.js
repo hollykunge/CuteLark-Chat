@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, ActionButton } from 'testlark';
+import { Box, ActionButton } from 'cutelark-ui';
 
 import Condensed from './Condensed';
 import * as Status from '../../components/UserStatus';

@@ -1,4 +1,4 @@
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import React, { useMemo } from 'react';
 import marked from 'marked';
 import dompurify from 'dompurify';

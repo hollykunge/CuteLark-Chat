@@ -1,4 +1,4 @@
-import { Tabs, Button, ButtonGroup, Icon } from 'testlark';
+import { Tabs, Button, ButtonGroup, Icon } from 'cutelark-ui';
 import React, { useCallback } from 'react';
 
 import Page from '../../../../components/Page';

@@ -1,4 +1,4 @@
-import { Box, Flex, Margins } from 'testlark';
+import { Box, Flex, Margins } from 'cutelark-ui';
 import React from 'react';
 
 import Growth from './Growth';

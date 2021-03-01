@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Skeleton } from 'testlark';
+import { Box, Skeleton } from 'cutelark-ui';
 
 import Medium from '../Medium';
 

@@ -1,4 +1,4 @@
-import { Button, Box, Throbber } from 'testlark';
+import { Button, Box, Throbber } from 'cutelark-ui';
 import React, { useState } from 'react';
 
 import { Apps } from '../../../../app/apps/client';

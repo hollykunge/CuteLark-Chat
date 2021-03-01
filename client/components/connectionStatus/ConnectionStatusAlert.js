@@ -1,4 +1,4 @@
-import { Icon } from 'testlark';
+import { Icon } from 'cutelark-ui';
 import React, { useEffect, useRef, useState } from 'react';
 
 import { useConnectionStatus } from '../../contexts/ConnectionStatusContext';

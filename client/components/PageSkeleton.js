@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup, Skeleton } from 'testlark';
+import { Box, Button, ButtonGroup, Skeleton } from 'cutelark-ui';
 import React from 'react';
 
 import Page from './Page';

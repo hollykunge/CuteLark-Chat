@@ -1,4 +1,4 @@
-import { Box, Field, Flex, Icon } from 'testlark';
+import { Box, Field, Flex, Icon } from 'cutelark-ui';
 import { Blaze } from 'meteor/blaze';
 import { Template } from 'meteor/templating';
 import React, { useRef, useEffect, useLayoutEffect } from 'react';

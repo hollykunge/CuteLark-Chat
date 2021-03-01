@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Tile } from 'testlark';
+import { Button, ButtonGroup, Tile } from 'cutelark-ui';
 import React from 'react';
 
 import { fullHeightDecorator } from '../../.storybook/decorators';

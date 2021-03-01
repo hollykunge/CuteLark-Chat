@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { AutoComplete, Option, Options } from 'testlark';
+import { AutoComplete, Option, Options } from 'cutelark-ui';
 
 import RoomAvatar from './avatar/RoomAvatar';
 import { useEndpointData } from '../hooks/useEndpointData';

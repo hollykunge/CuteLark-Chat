@@ -1,4 +1,4 @@
-import { Box, Margins, Table, Avatar, Tag, Icon } from 'testlark';
+import { Box, Margins, Table, Avatar, Tag, Icon } from 'cutelark-ui';
 import { useMediaQuery } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo, useState, useCallback } from 'react';
 

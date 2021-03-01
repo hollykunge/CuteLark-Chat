@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Margins, ButtonGroup, Button, Icon, ActionButton } from 'testlark';
+import { Box, Margins, ButtonGroup, Button, Icon, ActionButton } from 'cutelark-ui';
 import { css } from '@rocket.chat/css-in-js';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';

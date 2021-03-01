@@ -6,7 +6,7 @@ import {
 	Margins,
 	PasswordInput,
 	TextInput,
-} from 'testlark';
+} from 'cutelark-ui';
 import { useAutoFocus, useUniqueId } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo, useState, useEffect } from 'react';
 

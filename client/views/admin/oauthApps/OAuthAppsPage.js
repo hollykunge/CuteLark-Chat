@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Icon } from 'testlark';
+import { Button, Icon } from 'cutelark-ui';
 
 import Page from '../../../components/Page';
 // import VerticalBar from '../../components/VerticalBar';

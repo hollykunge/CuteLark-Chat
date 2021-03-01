@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Table } from 'testlark';
+import { Table } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useMethodData } from '../../../hooks/useMethodData';

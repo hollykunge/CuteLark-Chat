@@ -1,4 +1,4 @@
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import React, { useState } from 'react';
 
 function Logo({ src = 'images/logo/logo.svg', ...props }) {

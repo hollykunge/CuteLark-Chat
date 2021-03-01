@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Option, Badge } from 'testlark';
+import { Option, Badge } from 'cutelark-ui';
 
 import { useSetting } from '../../../client/contexts/SettingsContext';
 import { useTranslation } from '../../../client/contexts/TranslationContext';

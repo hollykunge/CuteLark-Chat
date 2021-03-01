@@ -1,4 +1,4 @@
-import { Box } from 'testlark';
+import { Box } from 'cutelark-ui';
 import React, { memo, FC } from 'react';
 import { useSubscription } from 'use-subscription';
 

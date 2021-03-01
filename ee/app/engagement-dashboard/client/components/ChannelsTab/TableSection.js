@@ -1,4 +1,4 @@
-import { Box, Icon, Margins, Pagination, Select, Skeleton, Table, Tile, ActionButton } from 'testlark';
+import { Box, Icon, Margins, Pagination, Select, Skeleton, Table, Tile, ActionButton } from 'cutelark-ui';
 import moment from 'moment';
 import React, { useMemo, useState } from 'react';
 

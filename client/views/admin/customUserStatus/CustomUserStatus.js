@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Table } from 'testlark';
+import { Table } from 'cutelark-ui';
 
 import FilterByText from '../../../components/FilterByText';
 import GenericTable from '../../../components/GenericTable';

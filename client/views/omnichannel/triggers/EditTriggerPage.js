@@ -1,5 +1,5 @@
 import React from 'react';
-import { Margins, Callout, FieldGroup, Box, Button } from 'testlark';
+import { Margins, Callout, FieldGroup, Box, Button } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import TriggersForm from './TriggersForm';

@@ -1,4 +1,4 @@
-import { Modal } from 'testlark';
+import { Modal } from 'cutelark-ui';
 import React, { useState } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

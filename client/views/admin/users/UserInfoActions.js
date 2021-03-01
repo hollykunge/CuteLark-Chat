@@ -1,4 +1,4 @@
-import { ButtonGroup, Menu, Option } from 'testlark';
+import { ButtonGroup, Menu, Option } from 'cutelark-ui';
 import React, { useCallback, useMemo } from 'react';
 
 import { useUserInfoActionsSpread } from '../../room/hooks/useUserInfoActions';

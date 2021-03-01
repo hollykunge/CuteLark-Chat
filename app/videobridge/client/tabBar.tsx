@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { useStableArray } from '@rocket.chat/fuselage-hooks';
-import { Option, Badge } from 'testlark';
+import { Option, Badge } from 'cutelark-ui';
 
 import { useSetting } from '../../../client/contexts/SettingsContext';
 import { addAction, ToolboxActionConfig } from '../../../client/views/room/lib/Toolbox';

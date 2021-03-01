@@ -5,7 +5,7 @@ import {
 	Skeleton,
 	Margins,
 	Button,
-} from 'testlark';
+} from 'cutelark-ui';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';
 import { useEndpointAction } from '../../../../hooks/useEndpointAction';

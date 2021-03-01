@@ -1,5 +1,5 @@
 import React, { FC, useMemo } from 'react';
-import { Box, Button, Icon, ButtonGroup, Modal } from 'testlark';
+import { Box, Button, Icon, ButtonGroup, Modal } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import TextCopy from '../../../components/TextCopy';

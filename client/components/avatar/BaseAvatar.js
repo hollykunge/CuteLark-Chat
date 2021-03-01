@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Avatar, Skeleton } from 'testlark';
+import { Avatar, Skeleton } from 'cutelark-ui';
 
 function BaseAvatar(props) {
 	const [error, setError] = useState(false);

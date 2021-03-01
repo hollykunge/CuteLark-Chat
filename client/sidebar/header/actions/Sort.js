@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from 'testlark';
+import { Sidebar } from 'cutelark-ui';
 
 import { popover } from '../../../../app/ui-utils';
 import { createTemplateForComponent } from '../../../reactAdapters';

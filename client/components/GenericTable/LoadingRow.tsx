@@ -1,4 +1,4 @@
-import { Box, Skeleton, Table } from 'testlark';
+import { Box, Skeleton, Table } from 'cutelark-ui';
 import React, { FC } from 'react';
 
 type LoadingRowProps = {

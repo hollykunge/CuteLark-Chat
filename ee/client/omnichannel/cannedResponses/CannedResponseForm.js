@@ -1,5 +1,5 @@
 import React from 'react';
-import { FieldGroup, Field, TextInput, TextAreaInput } from 'testlark';
+import { FieldGroup, Field, TextInput, TextAreaInput } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 

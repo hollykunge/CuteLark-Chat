@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup, Icon, Scrollable, Modal } from 'testlark';
+import { Box, Button, ButtonGroup, Icon, Scrollable, Modal } from 'cutelark-ui';
 import Clipboard from 'clipboard';
 import React, { useEffect, useState, useRef, FC } from 'react';
 

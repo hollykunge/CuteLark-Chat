@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput, Box, Icon } from 'testlark';
+import { TextInput, Box, Icon } from 'cutelark-ui';
 
 import GenericTable from './GenericTable';
 

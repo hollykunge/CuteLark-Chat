@@ -1,5 +1,5 @@
 import { ResponsiveBar } from '@nivo/bar';
-import { Box, Button, Chevron, Flex, Margins, Select, Skeleton } from 'testlark';
+import { Box, Button, Chevron, Flex, Margins, Select, Skeleton } from 'cutelark-ui';
 import moment from 'moment';
 import React, { useMemo, useState } from 'react';
 

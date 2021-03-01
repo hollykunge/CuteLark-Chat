@@ -1,4 +1,4 @@
-import { Box, Pagination, Table, Tile } from 'testlark';
+import { Box, Pagination, Table, Tile } from 'cutelark-ui';
 import { useDebouncedValue } from '@rocket.chat/fuselage-hooks';
 import React, { useState, useEffect, useCallback, forwardRef } from 'react';
 import flattenChildren from 'react-keyed-flatten-children';

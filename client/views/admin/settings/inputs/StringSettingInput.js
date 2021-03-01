@@ -1,4 +1,4 @@
-import { Box, Field, Flex, TextAreaInput, TextInput, Callout, Margins } from 'testlark';
+import { Box, Field, Flex, TextAreaInput, TextInput, Callout, Margins } from 'cutelark-ui';
 import React from 'react';
 
 import { ResetSettingButton } from '../ResetSettingButton';

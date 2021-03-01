@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Box, Table, Button, Icon } from 'testlark';
+import { Box, Table, Button, Icon } from 'cutelark-ui';
 import { useMutableCallback, useDebouncedValue } from '@rocket.chat/fuselage-hooks';
 
 import UserAvatar from '../../../components/avatar/UserAvatar';

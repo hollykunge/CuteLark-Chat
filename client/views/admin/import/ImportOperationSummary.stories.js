@@ -1,4 +1,4 @@
-import { Table } from 'testlark';
+import { Table } from 'cutelark-ui';
 import React from 'react';
 
 import ImportOperationSummary from './ImportOperationSummary';

@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Accordion, Field, NumberInput, FieldGroup, ToggleSwitch } from 'testlark';
+import { Accordion, Field, NumberInput, FieldGroup, ToggleSwitch } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useUserPreference } from '../../../contexts/UserContext';

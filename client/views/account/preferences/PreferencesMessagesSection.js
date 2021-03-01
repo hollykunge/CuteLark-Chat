@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Accordion, Field, Select, FieldGroup, ToggleSwitch } from 'testlark';
+import { Accordion, Field, Select, FieldGroup, ToggleSwitch } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useUserPreference } from '../../../contexts/UserContext';
