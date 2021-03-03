@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, ActionButton } from '@rocket.chat/fuselage';
+import { Box, ActionButton } from 'cutelark-ui';
 
 import Condensed from './Condensed';
 import * as Status from '../../components/UserStatus';

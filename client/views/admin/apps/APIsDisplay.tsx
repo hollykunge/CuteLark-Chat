@@ -1,4 +1,4 @@
-import { Box, Divider } from '@rocket.chat/fuselage';
+import { Box, Divider } from 'cutelark-ui';
 import React, { FC } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

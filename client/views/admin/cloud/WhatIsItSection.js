@@ -1,4 +1,4 @@
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'cutelark-ui';
 import React from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

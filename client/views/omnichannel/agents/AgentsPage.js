@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Box, Field } from '@rocket.chat/fuselage';
+import { Button, Box, Field } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { UserAutoComplete } from '../../../components/AutoComplete';

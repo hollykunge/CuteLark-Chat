@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Box, Callout, FieldGroup, Field, TextInput, MultiSelect, Button, ButtonGroup } from '@rocket.chat/fuselage';
+import { Box, Callout, FieldGroup, Field, TextInput, MultiSelect, Button, ButtonGroup } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { usePermission } from '../../../contexts/AuthorizationContext';

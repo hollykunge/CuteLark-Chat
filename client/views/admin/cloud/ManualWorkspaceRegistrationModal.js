@@ -1,4 +1,4 @@
-import { Modal } from '@rocket.chat/fuselage';
+import { Modal } from 'cutelark-ui';
 import React, { useState } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

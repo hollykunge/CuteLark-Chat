@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup, Scrollable, Throbber, Modal } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Scrollable, Throbber, Modal } from 'cutelark-ui';
 import React, { ChangeEvent, FC, useState } from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

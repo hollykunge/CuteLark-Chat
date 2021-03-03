@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Skeleton } from '@rocket.chat/fuselage';
+import { Skeleton } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';
 import CounterRow from './CounterRow';

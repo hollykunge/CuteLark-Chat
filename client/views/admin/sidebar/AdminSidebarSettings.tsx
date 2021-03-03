@@ -1,4 +1,4 @@
-import { Box, Icon, SearchInput, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Icon, SearchInput, Skeleton } from 'cutelark-ui';
 import { useDebouncedValue } from '@rocket.chat/fuselage-hooks';
 import React, { useCallback, useState, useMemo, FC } from 'react';
 

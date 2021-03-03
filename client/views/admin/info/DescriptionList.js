@@ -1,4 +1,4 @@
-import { Box, Table } from '@rocket.chat/fuselage';
+import { Box, Table } from 'cutelark-ui';
 import React from 'react';
 
 const style = { wordBreak: 'break-word' };

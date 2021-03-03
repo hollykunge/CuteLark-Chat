@@ -2,7 +2,7 @@
 
 import { useDebouncedValue, useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React, { useMemo, useCallback, useState } from 'react';
-import { Table, Icon, Button } from '@rocket.chat/fuselage';
+import { Table, Icon, Button } from 'cutelark-ui';
 
 import GenericTable from '../../../../client/components/GenericTable';
 import { useTranslation } from '../../../../client/contexts/TranslationContext';

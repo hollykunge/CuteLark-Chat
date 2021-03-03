@@ -1,4 +1,4 @@
-import { Icon } from '@rocket.chat/fuselage';
+import { Icon } from 'cutelark-ui';
 import React, { useEffect, useRef, useState } from 'react';
 
 import { useConnectionStatus } from '../../contexts/ConnectionStatusContext';

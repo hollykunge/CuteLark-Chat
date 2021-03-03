@@ -3,7 +3,7 @@ import {
 	Field,
 	Flex,
 	Select,
-} from '@rocket.chat/fuselage';
+} from 'cutelark-ui';
 import React from 'react';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';

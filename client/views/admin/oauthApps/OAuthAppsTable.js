@@ -1,4 +1,4 @@
-import { Table } from '@rocket.chat/fuselage';
+import { Table } from 'cutelark-ui';
 import React, { useMemo, useCallback } from 'react';
 
 import GenericTable from '../../../components/GenericTable';

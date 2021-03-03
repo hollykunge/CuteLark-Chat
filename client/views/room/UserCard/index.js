@@ -1,5 +1,5 @@
 import React, { useMemo, useRef } from 'react';
-import { PositionAnimated, AnimatedVisibility, Menu, Option } from '@rocket.chat/fuselage';
+import { PositionAnimated, AnimatedVisibility, Menu, Option } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useSetting } from '../../../contexts/SettingsContext';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'cutelark-ui';
 
 import { useSetting } from '../../../contexts/SettingsContext';
 import { useTranslation } from '../../../contexts/TranslationContext';

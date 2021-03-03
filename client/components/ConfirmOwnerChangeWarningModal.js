@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, ButtonGroup, Icon, Modal } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Icon, Modal } from 'cutelark-ui';
 
 import RawText from './RawText';
 import { useTranslation } from '../contexts/TranslationContext';

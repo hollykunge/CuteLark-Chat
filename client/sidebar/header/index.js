@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from '@rocket.chat/fuselage';
+import { Sidebar } from 'cutelark-ui';
 
 import Home from './actions/Home';
 import Search from './actions/Search';

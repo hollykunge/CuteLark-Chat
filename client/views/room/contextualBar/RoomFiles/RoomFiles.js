@@ -7,7 +7,7 @@ import {
 	Select,
 	Throbber,
 	Margins,
-} from '@rocket.chat/fuselage';
+} from 'cutelark-ui';
 import { FixedSizeList as List } from 'react-window';
 import InfiniteLoader from 'react-window-infinite-loader';
 import memoize from 'memoize-one';

@@ -1,4 +1,4 @@
-import { Button, Field } from '@rocket.chat/fuselage';
+import { Button, Field } from 'cutelark-ui';
 import React from 'react';
 
 import { useMethod } from '../../../../contexts/ServerContext';

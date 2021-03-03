@@ -9,7 +9,7 @@ import {
 	Margins,
 	Select,
 	Accordion,
-} from '@rocket.chat/fuselage';
+} from 'cutelark-ui';
 import React, { useMemo, useCallback } from 'react';
 
 import { useHighlightedCode } from '../../../hooks/useHighlightedCode';

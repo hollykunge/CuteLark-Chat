@@ -1,5 +1,5 @@
 import React from 'react';
-import { FieldGroup, Field, TextInput, TextAreaInput } from '@rocket.chat/fuselage';
+import { FieldGroup, Field, TextInput, TextAreaInput } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 

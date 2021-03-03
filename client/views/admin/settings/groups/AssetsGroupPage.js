@@ -1,4 +1,4 @@
-import { Button } from '@rocket.chat/fuselage';
+import { Button } from 'cutelark-ui';
 import React, { memo } from 'react';
 
 import { useEditableSettingsGroupSections } from '../../../../contexts/EditableSettingsContext';

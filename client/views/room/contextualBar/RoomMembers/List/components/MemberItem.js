@@ -3,7 +3,7 @@ import {
 	Option,
 	ActionButton,
 	Menu,
-} from '@rocket.chat/fuselage';
+} from 'cutelark-ui';
 import { usePrefersReducedMotion } from '@rocket.chat/fuselage-hooks';
 
 

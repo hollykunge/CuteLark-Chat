@@ -1,4 +1,4 @@
-import { Box, Flex, Margins } from '@rocket.chat/fuselage';
+import { Box, Flex, Margins } from 'cutelark-ui';
 import React from 'react';
 
 import { Histogram } from './Histogram';

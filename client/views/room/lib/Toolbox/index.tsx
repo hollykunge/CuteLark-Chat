@@ -1,5 +1,5 @@
 import { FC, LazyExoticComponent, ReactNode, MouseEvent } from 'react';
-import { BoxProps, OptionProps } from '@rocket.chat/fuselage';
+import { BoxProps, OptionProps } from 'cutelark-ui';
 
 import { IRoom } from '../../../../../definition/IRoom';
 import { generator } from './generator';

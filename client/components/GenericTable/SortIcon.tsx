@@ -1,4 +1,4 @@
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'cutelark-ui';
 import React, { FC } from 'react';
 
 type SortIconProps = {

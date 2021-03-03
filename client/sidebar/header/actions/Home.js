@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from '@rocket.chat/fuselage';
+import { Sidebar } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useRoute } from '../../../contexts/RouterContext';

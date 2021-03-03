@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Field, MultiSelectFiltered } from '@rocket.chat/fuselage';
+import { Field, MultiSelectFiltered } from 'cutelark-ui';
 // import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';

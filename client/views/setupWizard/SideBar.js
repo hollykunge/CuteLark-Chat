@@ -1,4 +1,4 @@
-import { Box, Margins } from '@rocket.chat/fuselage';
+import { Box, Margins } from 'cutelark-ui';
 import { useMediaQuery } from '@rocket.chat/fuselage-hooks';
 import React from 'react';
 

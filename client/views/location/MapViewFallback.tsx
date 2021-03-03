@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Box, Icon } from '@rocket.chat/fuselage';
+import { Box, Icon } from 'cutelark-ui';
 
 import ExternalLink from '../../components/ExternalLink';
 import { useTranslation } from '../../contexts/TranslationContext';

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FieldGroup, Box } from '@rocket.chat/fuselage';
+import { FieldGroup, Box } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import { useSubscription } from 'use-subscription';
 

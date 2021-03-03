@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Box, Margins, Tag, Button, Icon } from '@rocket.chat/fuselage';
+import { Box, Margins, Tag, Button, Icon } from 'cutelark-ui';
 import { css } from '@rocket.chat/css-in-js';
 
 import { useTranslation } from '../../../../contexts/TranslationContext';

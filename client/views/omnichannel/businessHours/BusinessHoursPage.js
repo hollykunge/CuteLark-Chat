@@ -1,5 +1,5 @@
 import React, { lazy, useMemo } from 'react';
-import { Button, ButtonGroup, Icon } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import Page from '../../../components/Page';

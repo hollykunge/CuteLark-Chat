@@ -1,5 +1,5 @@
 import React from 'react';
-import { Field, Select } from '@rocket.chat/fuselage';
+import { Field, Select } from 'cutelark-ui';
 
 export const Preferences = ({ name, options, onChange, optionDefault, children, ...props }) => (
 	<Field {...props}>

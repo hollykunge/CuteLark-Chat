@@ -9,7 +9,7 @@ import {
 	ButtonGroup,
 	Button,
 	Callout,
-} from '@rocket.chat/fuselage';
+} from 'cutelark-ui';
 import { FixedSizeList as List, areEqual } from 'react-window';
 import InfiniteLoader from 'react-window-infinite-loader';
 import {

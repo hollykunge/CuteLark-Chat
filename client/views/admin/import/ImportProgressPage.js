@@ -1,4 +1,4 @@
-import { Box, Margins, Throbber } from '@rocket.chat/fuselage';
+import { Box, Margins, Throbber } from 'cutelark-ui';
 import { useSafely } from '@rocket.chat/fuselage-hooks';
 import React, { useEffect, useState, useMemo } from 'react';
 import s from 'underscore.string';

@@ -1,4 +1,4 @@
-import { FieldGroup } from '@rocket.chat/fuselage';
+import { FieldGroup } from 'cutelark-ui';
 import React from 'react';
 
 import { Setting } from './Setting';

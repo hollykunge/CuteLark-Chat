@@ -1,4 +1,4 @@
-import { Grid } from '@rocket.chat/fuselage';
+import { Grid } from 'cutelark-ui';
 import React from 'react';
 
 import Counter from './Counter';

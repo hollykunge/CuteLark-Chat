@@ -1,5 +1,5 @@
 import React, { useMemo, FC } from 'react';
-import { Box, Button, ButtonGroup, Skeleton, Throbber, InputBox } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Skeleton, Throbber, InputBox } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import EditCustomUserStatus from './EditCustomUserStatus';

@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Icon, Modal } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon, Modal } from 'cutelark-ui';
 import React from 'react';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Box, Button, Icon, TextInput, Margins, Avatar } from '@rocket.chat/fuselage';
+import { Box, Button, Icon, TextInput, Margins, Avatar } from 'cutelark-ui';
 
 import { useTranslation } from '../../contexts/TranslationContext';
 import { useFileInput } from '../../hooks/useFileInput';

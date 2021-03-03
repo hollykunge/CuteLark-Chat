@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { ButtonGroup, Button, Box, Accordion } from '@rocket.chat/fuselage';
+import { ButtonGroup, Button, Box, Accordion } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useToastMessageDispatch } from '../../../contexts/ToastMessagesContext';

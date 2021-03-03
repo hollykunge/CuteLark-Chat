@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import React, { useState, useCallback, useMemo } from 'react';
-import { Button, TextInput, Field, Modal, Box, Throbber } from '@rocket.chat/fuselage';
+import { Button, TextInput, Field, Modal, Box, Throbber } from 'cutelark-ui';
 import { useSafely } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

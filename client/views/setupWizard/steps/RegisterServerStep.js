@@ -5,8 +5,8 @@ import {
 	Icon,
 	Margins,
 	RadioButton,
-} from '@rocket.chat/fuselage';
-import { useMergedRefs, useUniqueId } from '@rocket.chat/fuselage-hooks'; // useAutoFocus,
+} from 'cutelark-ui';
+import { useAutoFocus, useMergedRefs, useUniqueId } from '@rocket.chat/fuselage-hooks';
 import React, { useRef, useState } from 'react';
 
 import { useMethod } from '../../../contexts/ServerContext';

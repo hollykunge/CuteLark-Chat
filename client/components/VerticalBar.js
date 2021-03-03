@@ -1,4 +1,4 @@
-import { Box, Button, ActionButton, ButtonGroup, Icon, Margins, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Button, ActionButton, ButtonGroup, Icon, Margins, Skeleton } from 'cutelark-ui';
 import React from 'react';
 
 import { useLayoutContextualBarPosition, useLayoutSizes } from '../providers/LayoutProvider';

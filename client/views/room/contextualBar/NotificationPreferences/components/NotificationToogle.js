@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Field, FieldGroup, ToggleSwitch } from '@rocket.chat/fuselage';
+import { Box, Field, FieldGroup, ToggleSwitch } from 'cutelark-ui';
 import { useUniqueId } from '@rocket.chat/fuselage-hooks';
 
 export const NotificationToogle = React.memo(({ label, description, onChange, defaultChecked }) => {

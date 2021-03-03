@@ -1,5 +1,5 @@
 import React, { useMemo, lazy, LazyExoticComponent, FC } from 'react';
-import { BadgeProps } from '@rocket.chat/fuselage';
+import { BadgeProps } from 'cutelark-ui';
 
 import { addAction } from '../../../../client/views/room/lib/Toolbox';
 import { useSetting } from '../../../../client/contexts/SettingsContext';

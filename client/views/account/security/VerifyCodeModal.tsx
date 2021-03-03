@@ -1,5 +1,5 @@
 import React, { FC, useCallback, useEffect, useRef } from 'react';
-import { Box, Button, TextInput, Icon, ButtonGroup, Modal } from '@rocket.chat/fuselage';
+import { Box, Button, TextInput, Icon, ButtonGroup, Modal } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useForm } from '../../../hooks/useForm';

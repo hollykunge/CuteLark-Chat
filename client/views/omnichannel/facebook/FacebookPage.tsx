@@ -1,5 +1,5 @@
 import React, { FC, useState, Dispatch } from 'react';
-import { Box, Button, ButtonGroup, Field, FieldGroup, ToggleSwitch, BoxClassName, Callout, Divider } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Field, FieldGroup, ToggleSwitch, BoxClassName, Callout, Divider } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import Page from '../../../components/Page';

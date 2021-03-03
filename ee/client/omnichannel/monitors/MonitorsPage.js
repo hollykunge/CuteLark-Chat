@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Button, Box, Callout, Field } from '@rocket.chat/fuselage';
+import { Button, Box, Callout, Field } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import MonitorsTable from './MonitorsTable';

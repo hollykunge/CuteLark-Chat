@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Margins } from '@rocket.chat/fuselage';
+import { Box, Divider, Flex, Margins } from 'cutelark-ui';
 import React from 'react';
 
 import { NewUsersSection } from './NewUsersSection';

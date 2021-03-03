@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@rocket.chat/fuselage';
+import { Box } from 'cutelark-ui';
 
 import { CannedResponseDetails } from './CannedResponseDetails';
 

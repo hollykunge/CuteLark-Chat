@@ -1,4 +1,4 @@
-import { Box, Icon, Button, Scrollable } from '@rocket.chat/fuselage';
+import { Box, Icon, Button, Scrollable } from 'cutelark-ui';
 import React, { useCallback } from 'react';
 
 import { useTranslation } from '../contexts/TranslationContext';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
-import { ActionButton } from '@rocket.chat/fuselage';
+import { ActionButton } from 'cutelark-ui';
 
 import Header from '../../../components/Header';
 import { useRoomIcon } from '../../../hooks/useRoomIcon';

@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, forwardRef } from 'react';
-import { Modal, Box } from '@rocket.chat/fuselage';
+import { Modal, Box } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 import { useLayoutContextualBarExpanded } from '../../../../client/providers/LayoutProvider';

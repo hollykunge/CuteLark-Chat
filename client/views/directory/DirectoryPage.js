@@ -1,5 +1,5 @@
 import React, { useEffect, useCallback } from 'react';
-import { Tabs } from '@rocket.chat/fuselage';
+import { Tabs } from 'cutelark-ui';
 
 import Page from '../../components/Page';
 import { useTranslation } from '../../contexts/TranslationContext';

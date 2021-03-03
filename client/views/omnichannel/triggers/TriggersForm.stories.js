@@ -1,5 +1,5 @@
 import React from 'react';
-import { FieldGroup, Box } from '@rocket.chat/fuselage';
+import { FieldGroup, Box } from 'cutelark-ui';
 
 import TriggersForm from './TriggersForm';
 import { useForm } from '../../../hooks/useForm';

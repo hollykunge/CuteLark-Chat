@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { TextInput, TextAreaInput, Field, FieldGroup, CheckBox, Button, Icon, ButtonGroup } from '@rocket.chat/fuselage';
+import { TextInput, TextAreaInput, Field, FieldGroup, CheckBox, Button, Icon, ButtonGroup } from 'cutelark-ui';
 
 import { isEmail } from '../../../../app/utils/lib/isEmail.js';
 import { isJSON } from '../../../../app/utils/lib/isJSON.js';

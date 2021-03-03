@@ -1,5 +1,5 @@
 import { ResponsiveLine } from '@nivo/line';
-import { Box, Flex, Skeleton, Tile, ActionButton } from '@rocket.chat/fuselage';
+import { Box, Flex, Skeleton, Tile, ActionButton } from 'cutelark-ui';
 import moment from 'moment';
 import React, { useMemo } from 'react';
 

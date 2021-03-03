@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Icon } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, Icon } from 'cutelark-ui';
 import React, { useCallback } from 'react';
 
 import Page from '../../../../components/Page';

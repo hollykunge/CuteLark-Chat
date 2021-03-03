@@ -1,4 +1,4 @@
-import { Box, Margins } from '@rocket.chat/fuselage';
+import { Box, Margins } from 'cutelark-ui';
 import React from 'react';
 
 export function LegendSymbol({ color = 'currentColor' }) {

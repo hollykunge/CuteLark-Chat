@@ -1,6 +1,6 @@
 import React, { useMemo, useEffect, useState } from 'react';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
-import { FieldGroup, Field, ToggleSwitch, Select } from '@rocket.chat/fuselage';
+import { FieldGroup, Field, ToggleSwitch, Select } from 'cutelark-ui';
 
 import { useUserSubscription } from '../../../../contexts/UserContext';
 import { useLanguage, useTranslation } from '../../../../contexts/TranslationContext';

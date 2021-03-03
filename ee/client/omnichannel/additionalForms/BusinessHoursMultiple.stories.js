@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Skeleton } from 'cutelark-ui';
 
 import { BusinessHoursMultiple } from './BusinessHoursMultiple';
 

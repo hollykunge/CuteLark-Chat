@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Field, UrlInput, Icon, Button, InputBox, Callout } from '@rocket.chat/fuselage';
+import { Box, Field, UrlInput, Icon, Button, InputBox, Callout } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import useClipboardWithToast from '../../../../../hooks/useClipboardWithToast';

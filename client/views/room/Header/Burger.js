@@ -1,4 +1,4 @@
-import { ActionButton } from '@rocket.chat/fuselage';
+import { ActionButton } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 import React from 'react';
 

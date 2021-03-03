@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { AutoComplete, Option, Options } from '@rocket.chat/fuselage';
+import { AutoComplete, Option, Options } from 'cutelark-ui';
 
 import UserAvatar from './avatar/UserAvatar';
 import { useEndpointData } from '../hooks/useEndpointData';

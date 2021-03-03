@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Field, MultiSelect } from '@rocket.chat/fuselage';
+import { Field, MultiSelect } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import TimeRangeFieldsAssembler from './TimeRangeFieldsAssembler';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Avatar, Skeleton } from '@rocket.chat/fuselage';
+import { Avatar, Skeleton } from 'cutelark-ui';
 
 function BaseAvatar(props) {
 	const [error, setError] = useState(false);

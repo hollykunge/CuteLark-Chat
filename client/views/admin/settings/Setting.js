@@ -1,4 +1,4 @@
-import { Callout, Field, Flex, InputBox, Margins, Skeleton } from '@rocket.chat/fuselage';
+import { Callout, Field, Flex, InputBox, Margins, Skeleton } from 'cutelark-ui';
 import React, { memo, useEffect, useMemo, useState, useCallback } from 'react';
 import { useDebouncedCallback } from '@rocket.chat/fuselage-hooks';
 

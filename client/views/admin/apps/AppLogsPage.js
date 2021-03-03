@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup, Icon, Accordion, Pagination } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Icon, Accordion, Pagination } from 'cutelark-ui';
 import { useSafely } from '@rocket.chat/fuselage-hooks';
 import React, { useCallback, useState, useEffect } from 'react';
 

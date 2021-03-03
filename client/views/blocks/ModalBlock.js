@@ -1,5 +1,5 @@
 import { UIKitIncomingInteractionContainerType } from '@rocket.chat/apps-engine/definition/uikit/UIKitIncomingInteractionContainer';
-import { Modal, AnimatedVisibility, ButtonGroup, Button, Box } from '@rocket.chat/fuselage';
+import { Modal, AnimatedVisibility, ButtonGroup, Button, Box } from 'cutelark-ui';
 import { useMutableCallback, useUniqueId } from '@rocket.chat/fuselage-hooks';
 import { kitContext, UiKitComponent, UiKitModal, modalParser } from '@rocket.chat/fuselage-ui-kit';
 import { uiKitText } from '@rocket.chat/ui-kit';

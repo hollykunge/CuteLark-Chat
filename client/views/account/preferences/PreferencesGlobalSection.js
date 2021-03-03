@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Accordion, Field, FieldGroup, MultiSelect } from '@rocket.chat/fuselage';
+import { Accordion, Field, FieldGroup, MultiSelect } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useUserPreference } from '../../../contexts/UserContext';

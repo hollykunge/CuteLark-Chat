@@ -1,4 +1,4 @@
-import { Box, Flex, InputBox, Margins } from '@rocket.chat/fuselage';
+import { Box, Flex, InputBox, Margins } from 'cutelark-ui';
 import React from 'react';
 
 export function Section({

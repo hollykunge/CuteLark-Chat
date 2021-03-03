@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, FieldGroup, Icon } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, FieldGroup, Icon } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useForm } from '../../../hooks/useForm';

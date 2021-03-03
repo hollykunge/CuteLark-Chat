@@ -7,7 +7,7 @@ import {
 	TextAreaInput,
 	ToggleSwitch,
 	FieldGroup,
-} from '@rocket.chat/fuselage';
+} from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useMethod } from '../../../contexts/ServerContext';

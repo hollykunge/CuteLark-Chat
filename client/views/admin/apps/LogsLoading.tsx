@@ -1,4 +1,4 @@
-import { Box, Skeleton, Margins } from '@rocket.chat/fuselage';
+import { Box, Skeleton, Margins } from 'cutelark-ui';
 import React, { FC } from 'react';
 
 const LogsLoading: FC = () =>

@@ -1,5 +1,5 @@
 import { ResponsiveBar } from '@nivo/bar';
-import { Box, Flex } from '@rocket.chat/fuselage';
+import { Box, Flex } from 'cutelark-ui';
 import React from 'react';
 
 import { polychromaticColors } from './colors';

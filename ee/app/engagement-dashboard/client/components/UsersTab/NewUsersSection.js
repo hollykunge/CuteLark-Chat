@@ -1,5 +1,5 @@
 import { ResponsiveBar } from '@nivo/bar';
-import { Box, Flex, Select, Skeleton, ActionButton } from '@rocket.chat/fuselage';
+import { Box, Flex, Select, Skeleton, ActionButton } from 'cutelark-ui';
 import { useResizeObserver } from '@rocket.chat/fuselage-hooks';
 import moment from 'moment';
 import React, { useMemo, useState } from 'react';

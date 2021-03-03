@@ -1,4 +1,4 @@
-import { Sidebar, Box, Badge } from '@rocket.chat/fuselage';
+import { Sidebar, Box, Badge } from 'cutelark-ui';
 import { useResizeObserver } from '@rocket.chat/fuselage-hooks';
 import React, { useRef, useEffect } from 'react';
 import { VariableSizeList as List, areEqual } from 'react-window';

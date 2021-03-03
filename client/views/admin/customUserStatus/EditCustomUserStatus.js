@@ -1,5 +1,5 @@
 import React, { useCallback, useState, useMemo, useEffect } from 'react';
-import { Button, ButtonGroup, TextInput, Field, Select, Icon } from '@rocket.chat/fuselage';
+import { Button, ButtonGroup, TextInput, Field, Select, Icon } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useMethod } from '../../../contexts/ServerContext';

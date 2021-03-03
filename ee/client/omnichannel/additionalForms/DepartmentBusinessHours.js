@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Field, TextInput } from '@rocket.chat/fuselage';
+import { Field, TextInput } from 'cutelark-ui';
 
 import { useTranslation } from '../../../../client/contexts/TranslationContext';
 import { useEndpointData } from '../../../../client/hooks/useEndpointData';

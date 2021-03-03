@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, Field, FieldGroup, TextAreaInput } from '@rocket.chat/fuselage';
+import { Accordion, Field, FieldGroup, TextAreaInput } from 'cutelark-ui';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import { useUserPreference } from '../../../contexts/UserContext';

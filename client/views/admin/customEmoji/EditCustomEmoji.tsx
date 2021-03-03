@@ -1,5 +1,5 @@
 import React, { useCallback, useState, useMemo, useEffect, FC, ChangeEvent } from 'react';
-import { Box, Button, ButtonGroup, Margins, TextInput, Field, Icon } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Margins, TextInput, Field, Icon } from 'cutelark-ui';
 
 import { useToastMessageDispatch } from '../../../contexts/ToastMessagesContext';
 import { useTranslation } from '../../../contexts/TranslationContext';

@@ -1,4 +1,4 @@
-import { Box, Field, Flex, TextInput } from '@rocket.chat/fuselage';
+import { Box, Field, Flex, TextInput } from 'cutelark-ui';
 import React from 'react';
 
 import { ResetSettingButton } from '../ResetSettingButton';

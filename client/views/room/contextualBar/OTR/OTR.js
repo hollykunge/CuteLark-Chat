@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useCallback } from 'react';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
-import { Box, Button, ButtonGroup, Throbber } from '@rocket.chat/fuselage';
+import { Box, Button, ButtonGroup, Throbber } from 'cutelark-ui';
 
 import { useSetModal } from '../../../../contexts/ModalContext';
 import OTRModal from './OTRModal';

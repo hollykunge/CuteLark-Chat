@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Accordion, Icon, FieldGroup } from '@rocket.chat/fuselage';
+import { Box, Accordion, Icon, FieldGroup } from 'cutelark-ui';
 
 export const NotificationByDevice = React.memo(({ device, icon, children }) => (
 	<Accordion.Item title={<Box display='flex' alignItems='center'>

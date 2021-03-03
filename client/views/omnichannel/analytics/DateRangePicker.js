@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Box, InputBox, Menu, Margins, Field } from '@rocket.chat/fuselage';
+import { Box, InputBox, Menu, Margins, Field } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 
 import { useTranslation } from '../../../contexts/TranslationContext';

@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { ButtonGroup, Menu, Option } from '@rocket.chat/fuselage';
+import { ButtonGroup, Menu, Option } from 'cutelark-ui';
 
 import { useUserInfoActions, useUserInfoActionsSpread } from '../../../hooks/useUserInfoActions';
 import { UserInfo } from '..';

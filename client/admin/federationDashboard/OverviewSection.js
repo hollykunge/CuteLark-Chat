@@ -1,4 +1,4 @@
-import { Box, Skeleton } from '@rocket.chat/fuselage';
+import { Box, Skeleton } from 'cutelark-ui';
 import React, { useMemo } from 'react';
 
 import { useTranslation } from '../../contexts/TranslationContext';

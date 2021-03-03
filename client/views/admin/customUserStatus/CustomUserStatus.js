@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Table } from '@rocket.chat/fuselage';
+import { Table } from 'cutelark-ui';
 
 import FilterByText from '../../../components/FilterByText';
 import GenericTable from '../../../components/GenericTable';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sidebar, ActionButton } from '@rocket.chat/fuselage';
+import { Sidebar, ActionButton } from 'cutelark-ui';
 import { useMutableCallback, usePrefersReducedMotion } from '@rocket.chat/fuselage-hooks';
 
 import { useShortTimeAgo } from '../../hooks/useTimeAgo';

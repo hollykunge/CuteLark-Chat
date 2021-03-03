@@ -1,5 +1,5 @@
 import React, { memo, useContext, ReactNode, useRef } from 'react';
-import { Menu, Option, BoxProps, MenuProps } from '@rocket.chat/fuselage';
+import { Menu, Option, BoxProps, MenuProps } from 'cutelark-ui';
 import { useMutableCallback } from '@rocket.chat/fuselage-hooks';
 // import tinykeys from 'tinykeys';
 

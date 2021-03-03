@@ -6,7 +6,7 @@ import {
 	Options,
 	useCursor,
 	Box,
-} from '@rocket.chat/fuselage';
+} from 'cutelark-ui';
 
 import { useTranslation } from '../contexts/TranslationContext';
 import { UserStatus } from './UserStatus';
