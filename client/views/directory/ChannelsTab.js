@@ -23,7 +23,7 @@ function RoomTags({ room }) {
 			{room.default && <Tag variant='primary'>{t('默认')}</Tag>}
 			{room.featured && <Tag variant='primary'>{t('featured')}</Tag>}
 		</Margins>
-	</Box>;	
+	</Box>;
 }
 
 function ChannelsTable() {
@@ -77,7 +77,7 @@ function ChannelsTable() {
 					{/* 名称 */}
 					<Box grow={1} mi='x8' style={style}>
 						<Box display='flex' alignItems='center'>
-						<Icon name={roomTypes.getIcon(room)} color='hint' /> <Box fontScale='p2' mi='x4'>{fname || name}</Box><RoomTags room={room} style={style} />
+							<Icon name={roomTypes.getIcon(room)} color='hint' /> <Box fontScale='p2' mi='x4'>{fname || name}</Box><RoomTags room={room} style={style} />
 						</Box>
 						{topic && <MarkdownText fontScale='p1' color='hint' style={style} withRichContent={false} content={topic} />}
 					</Box>

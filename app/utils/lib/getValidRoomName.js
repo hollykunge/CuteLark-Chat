@@ -21,7 +21,7 @@ export const getValidRoomName = (displayName, rid = '', options = {}) => {
 		slugifiedName = limax(displayName);
 	}
 
-	let nameValidation;
+	// let nameValidation;
 
 	if (options.nameValidationRegex) {
 		nameValidation = new RegExp(options.nameValidationRegex);

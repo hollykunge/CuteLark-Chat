@@ -2664,7 +2664,6 @@ settings.addGroup('Setup_Wizard', function() {
 				// 	key: 'zimbabwe',
 				// 	i18nLabel: 'Country_Zimbabwe',
 				// },
-			
 			],
 			wizard: {
 				step: 2,
