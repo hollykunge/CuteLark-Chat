@@ -20,7 +20,7 @@ function RoomTags({ room }) {
 	const t = useTranslation();
 	return <Box mi='x4' alignItems='center' display='flex'>
 		<Margins inline='x2'>
-			{room.default && <Tag variant='primary'>{t('default')}</Tag>}
+			{room.default && <Tag variant='primary'>{t('默认')}</Tag>}
 			{room.featured && <Tag variant='primary'>{t('featured')}</Tag>}
 		</Margins>
 	</Box>;
@@ -70,9 +70,11 @@ function ChannelsTable() {
 		return <Table.Row key={_id} onKeyDown={onClick(name)} onClick={onClick(name)} tabIndex={0} role='link' action>
 			<Table.Cell>
 				<Box display='flex'>
+					{/* 头像 */}
 					<Box flexGrow={0}>
 						<Avatar size='x40' title={fname || name} url={avatarUrl} />
 					</Box>
+					{/* 名称 */}
 					<Box grow={1} mi='x8' style={style}>
 						<Box display='flex' alignItems='center'>
 							<Icon name={roomTypes.getIcon(room)} color='hint' /> <Box fontScale='p2' mi='x4'>{fname || name}</Box><RoomTags room={room} style={style} />

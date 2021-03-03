@@ -201,7 +201,11 @@
 			<span class="rc-tags__tag-image">
 				{{> avatar username=username}}
 			</span>
+			{{#if name}}
+			<span class="rc-tags__tag-text">{{name}}</span>
+			{{else}}
 			<span class="rc-tags__tag-text">{{username}}</span>
+			{{/if}}
 		{{else}}
 			<span class="rc-tags__tag-text">{{text}}</span>
 		{{/if}}

@@ -207,8 +207,8 @@ const MailExportForm = ({ onCancel, rid }) => {
 	return (
 		<FieldGroup>
 			<Field>
-				<Callout onClick={reset} title={t('Messages selected')} type={selectedMessages.length > 0 ? 'success' : 'info'}>
-					<p>{`${ selectedMessages.length } Messages selected`}</p>
+				<Callout onClick={reset} title={t('消息选中')} type={selectedMessages.length > 0 ? 'success' : 'info'}>
+					<p>{`${ selectedMessages.length } 消息已选中`}</p>
 					{ selectedMessages.length > 0 && <Box is='p' className={clickable} >{t('Click here to clear the selection')}</Box> }
 					{ selectedMessages.length === 0 && <Box is='p'>{t('Click_the_messages_you_would_like_to_send_by_email')}</Box> }
 				</Callout>
@@ -222,7 +222,7 @@ const MailExportForm = ({ onCancel, rid }) => {
 			<Field>
 				<Field.Label>{t('To_additional_emails')}</Field.Label>
 				<Field.Row>
-					<TextInput placeholder={t('Email_Placeholder_any')} value={additionalEmails} onChange={handleAdditionalEmails} addon={<Icon name='mail' size='x20'/>} />
+					<TextInput disabled placeholder={t('Email_Placeholder_any')} value={additionalEmails} onChange={handleAdditionalEmails} addon={<Icon name='mail' size='x20'/>} />
 				</Field.Row>
 			</Field>
 			<Field>

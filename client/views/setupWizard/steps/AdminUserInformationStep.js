@@ -21,6 +21,7 @@ import { Pager } from '../Pager';
 import { Step } from '../Step';
 import { StepHeader } from '../StepHeader';
 
+// 管理员用户信息步骤
 function AdminUserInformationStep({ step, title, active }) {
 	const loginWithPassword = useLoginWithPassword();
 	const registerUser = useMethod('registerUser');
@@ -50,27 +51,27 @@ function AdminUserInformationStep({ step, title, active }) {
 		await defineUsername(username);
 		callbacks.run('usernameSet');
 	};
-
+	// Note: 正则校验
 	const regexpForUsernameValidation = useSetting('UTF8_Names_Validation');
 	const usernameRegExp = useMemo(() => new RegExp(`^${ regexpForUsernameValidation }$`), [regexpForUsernameValidation]);
 	const emailRegExp = useMemo(() => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]+$/i, []);
-
+	// Note: 表单内容
 	const [name, setName] = useState('');
 	const [username, setUsername] = useState('');
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
-
+	// Note: 表单校验
 	const [isUsernameValid, validateUsername] = useState(true);
 	const [isEmailValid, validateEmail] = useState(true);
-
+	// Note: 是否可以下一步
 	const isContinueEnabled = useMemo(() => name && username && email && password, [name, username, email, password]);
-
+	// Note: 提交
 	const [commiting, setCommiting] = useState(false);
-
+	// Note: 校验用户
 	useEffect(() => {
 		validateUsername(username && usernameRegExp.test(username));
 	}, [username, usernameRegExp]);
-
+	// note: 校验邮箱
 	useEffect(() => {
 		validateEmail(email && emailRegExp.test(email));
 	}, [email, emailRegExp]);

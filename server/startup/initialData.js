@@ -12,16 +12,16 @@ import { checkUsernameAvailability, addUserToDefaultChannels } from '../../app/l
 Meteor.startup(function() {
 	Meteor.defer(() => {
 		if (!Rooms.findOneById('GENERAL')) {
-			Rooms.createWithIdTypeAndName('GENERAL', 'c', 'general', {
+			Rooms.createWithIdTypeAndName('GENERAL', 'c', '易知云雀', {
 				default: true,
 			});
 		}
-
+		// 创建一个机器人
 		if (!Users.findOneById('rocket.cat')) {
 			Users.create({
 				_id: 'rocket.cat',
-				name: 'Rocket.Cat',
-				username: 'rocket.cat',
+				name: '易知云雀机器人',
+				username: 'cuteLark.cat',
 				status: 'online',
 				statusDefault: 'online',
 				utcOffset: 0,
