@@ -784,7 +784,7 @@ settings.addGroup('General', function() {
 		i18nDescription: 'Site_Url_Description',
 		public: true,
 	});
-	this.add('Site_Name', '易知云雀', {
+	this.add('Site_Name', '灵雀', {
 		type: 'string',
 		public: true,
 		wizard: {

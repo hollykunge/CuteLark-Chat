@@ -46,10 +46,10 @@ function SetupWizardPage({ currentStep = 1 }) {
 							step: 3,
 							title: t('Server_Info'),
 						},
-						{
-							step: 4,
-							title: t('Register_Server'),
-						},
+						// {
+						// 	step: 4,
+						// 	title: t('Register_Server'),
+						// },
 					]}
 					currentStep={currentStep}
 				/>
@@ -66,7 +66,9 @@ function SetupWizardPage({ currentStep = 1 }) {
 								<AdminUserInformationStep step={1} title={t('Admin_Info')} active={currentStep === 1} />
 								<SettingsBasedStep step={2} title={t('Organization_Info')} active={currentStep === 2} />
 								<SettingsBasedStep step={3} title={t('Server_Info')} active={currentStep === 3} />
-								<RegisterServerStep step={4} title={t('Register_Server')} active={currentStep === 4} />
+								{/*
+									<RegisterServerStep step={4} title={t('Register_Server')} active={currentStep === 4} />
+								*/}
 							</Tile>
 						</Margins>
 					</ScrollableContentWrapper>
