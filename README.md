@@ -1,5 +1,5 @@
 
-## 快速开发
+## 快速开发gogogo
 前提:
 
 * [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
