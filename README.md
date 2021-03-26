@@ -40,7 +40,7 @@ meteor debug
 ### Node 版本
 
     12.18.4
-
+### 命令行
 ```
     // 使用 meteor help build  查看命令参数
     
@@ -55,3 +55,5 @@ meteor debug
     $ export DISABLE_DB_WATCH=false // 监听mongoDB --- 暂时不知道干什么的
     $ node main.js
 ```
+
+![image](https://user-images.githubusercontent.com/30425647/112615294-45422e80-8e5d-11eb-840f-73c493c669ca.png)
