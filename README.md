@@ -34,3 +34,24 @@ meteor debug
 参考 [Branches and Releases](https://rocket.chat/docs/developer-guides/branches-and-releases/)。
 
 基于 [Gitflow Workflow](http://nvie.com/posts/a-successful-git-branching-model/)。
+
+## 部署方式
+
+### Node 版本
+
+    12.18.4
+
+```
+    // 使用 meteor help build  查看命令参数
+    
+    $ meteor build 打包路径 --architecture os.linux.x86_64 
+    $ tar -xzvf  CuteLark-Chat.tar.gz
+    $ cd bundle
+    $ (cd programs/server && npm install)
+    $ export MONGO_URL='mongodb://127.0.0.1:27017/rocketchat'
+    $ export ROOT_URL='http://localhost:3000'
+    $ export MAIL_URL='smtp://smtp.email'
+    $ export PORT=3000
+    $ export DISABLE_DB_WATCH=false // 监听mongoDB --- 暂时不知道干什么的
+    $ node main.js
+```
