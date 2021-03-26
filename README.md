@@ -55,5 +55,7 @@ meteor debug
     $ export DISABLE_DB_WATCH=false // 监听mongoDB --- 暂时不知道干什么的
     $ node main.js
 ```
-
+### 遇到的问题
+- sharp依赖， 运行 rm -rf node_modules/sharp，npm install sharp (删了重新下)
 ![image](https://user-images.githubusercontent.com/30425647/112615294-45422e80-8e5d-11eb-840f-73c493c669ca.png)
+
